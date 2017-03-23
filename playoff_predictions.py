@@ -1,7 +1,8 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 from datetime import date, timedelta
-import os, operator, copy, csv
+import os, operator, copy, csv, sys
+import numpy as np
 
 #stores information for a game
 class Game(object):
@@ -247,20 +248,36 @@ class Playoffs(object):
     def predict(self):
 
         def winner(t1, t2):
-            print(t1.rating.mu, t2.rating.mu,ts.quality_1vs1(t1.rating, t2.rating))
-            if t1.rating.mu > t2.rating.mu:
-                t1.rating, t2.rating = ts.rate_1vs1(t1.rating, t2.rating, )
+            denum = t1.rating.mu + t2.rating.mu
+            winner = np.random.choice([t1,t2],p=[t1.rating.mu/denum, t2.rating.mu/denum])
+            if winner is t1:
+                t1.rating, t2.rating = ts.rate_1vs1(t1.rating, t2.rating, drawn=np.random.choice([True, False],p=[0.081,1.0-0.081]))
                 return t1
             else:
                 t2.rating, t1.rating = ts.rate_1vs1(t2.rating, t1.rating)
                 return t2
 
         Teams.rank(key = 'score')
-
         winners = []
 
-        for i in range(1):
+        def update_progress(progress):
+            barLength = 10 # Modify this to change the length of the progress bar
+            status = ""
+            if isinstance(progress, int):
+                progress = float(progress)
+            if progress < 0:
+                progress = 0
+                status = "Halt...\r\n"
+            if progress >= 1:
+                progress = 1
+                status = "Done...\r\n"
+            block = int(round(barLength*progress))
+            text = "\rPercent: [{0}] {1}%".format( "#"*block + "-"*(barLength-block), int(progress*100))
+            sys.stdout.write(text)
+            sys.stdout.flush()
 
+        for i in range(100000):
+            update_progress((i+1.0)/100000)
             #predict eastern conference
             metropolitan = self._metropolitan.subset(n = 3)
             atlantic = self._atlantic.subset(n = 3)
@@ -355,6 +372,17 @@ class Playoffs(object):
             stanley_cup = winner(west_t, east_t)
             winners.append(stanley_cup.name)
             #print(stanley_cup.name + ' will win the Stanley Cup')
+        unique_teams = []
+        sorted_teams = []
+        for winner in winners:
+            if winner not in unique_teams:
+                unique_teams.append(winner)
+        for team in unique_teams:
+            sorted_teams.append((team, winners.count(team)))
+        sorted_teams.sort(key=lambda x: x[1], reverse = True)
+        for team in sorted_teams:
+            print(team)
+
 
     def out(self):
         print('==============================================', end='')
