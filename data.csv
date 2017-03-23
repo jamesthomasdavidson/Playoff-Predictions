@@ -1,0 +1,1084 @@
+date,winner,win_score,loser,lose_score,extra_time
+2016-10-12,St. Louis Blues,5,Chicago Blackhawks,2,n/a
+2016-10-12,Edmonton Oilers,7,Calgary Flames,4,n/a
+2016-10-12,Ottawa Senators,5,Toronto Maple Leafs,4,OT
+2016-10-12,San Jose Sharks,2,Los Angeles Kings,1,n/a
+2016-10-13,Montreal Canadiens,4,Buffalo Sabres,1,n/a
+2016-10-13,Boston Bruins,6,Columbus Blue Jackets,3,n/a
+2016-10-13,Dallas Stars,4,Anaheim Ducks,2,n/a
+2016-10-13,Florida Panthers,2,New Jersey Devils,1,OT
+2016-10-13,New York Rangers,5,New York Islanders,3,n/a
+2016-10-13,Pittsburgh Penguins,3,Washington Capitals,2,SO
+2016-10-13,St. Louis Blues,3,Minnesota Wild,2,n/a
+2016-10-13,Tampa Bay Lightning,6,Detroit Red Wings,4,n/a
+2016-10-13,Winnipeg Jets,5,Carolina Hurricanes,4,OT
+2016-10-14,Edmonton Oilers,5,Calgary Flames,3,n/a
+2016-10-14,Philadelphia Flyers,4,Los Angeles Kings,2,n/a
+2016-10-14,Nashville Predators,3,Chicago Blackhawks,2,n/a
+2016-10-15,Arizona Coyotes,4,Philadelphia Flyers,3,OT
+2016-10-15,San Jose Sharks,3,Columbus Blue Jackets,2,n/a
+2016-10-15,Chicago Blackhawks,5,Nashville Predators,3,n/a
+2016-10-15,Colorado Avalanche,6,Dallas Stars,5,n/a
+2016-10-15,Florida Panthers,4,Detroit Red Wings,1,n/a
+2016-10-15,Minnesota Wild,4,Winnipeg Jets,3,n/a
+2016-10-15,Ottawa Senators,4,Montreal Canadiens,3,SO
+2016-10-15,Pittsburgh Penguins,3,Anaheim Ducks,2,n/a
+2016-10-15,St. Louis Blues,3,New York Rangers,2,n/a
+2016-10-15,Tampa Bay Lightning,3,New Jersey Devils,2,n/a
+2016-10-15,Toronto Maple Leafs,4,Boston Bruins,1,n/a
+2016-10-15,Vancouver Canucks,2,Calgary Flames,1,SO
+2016-10-15,Washington Capitals,2,New York Islanders,1,n/a
+2016-10-16,Buffalo Sabres,6,Edmonton Oilers,2,n/a
+2016-10-16,New York Islanders,3,Anaheim Ducks,2,OT
+2016-10-16,Vancouver Canucks,4,Carolina Hurricanes,3,OT
+2016-10-17,Detroit Red Wings,5,Ottawa Senators,1,n/a
+2016-10-17,New York Rangers,7,San Jose Sharks,4,n/a
+2016-10-17,Colorado Avalanche,4,Pittsburgh Penguins,3,OT
+2016-10-17,Boston Bruins,4,Winnipeg Jets,1,n/a
+2016-10-18,Calgary Flames,4,Buffalo Sabres,3,OT
+2016-10-18,Chicago Blackhawks,7,Philadelphia Flyers,4,n/a
+2016-10-18,Edmonton Oilers,3,Carolina Hurricanes,2,n/a
+2016-10-18,Minnesota Wild,6,Los Angeles Kings,3,n/a
+2016-10-18,Montreal Canadiens,4,Pittsburgh Penguins,0,n/a
+2016-10-18,New Jersey Devils,2,Anaheim Ducks,1,n/a
+2016-10-18,Dallas Stars,2,Nashville Predators,1,n/a
+2016-10-18,San Jose Sharks,3,New York Islanders,2,n/a
+2016-10-18,Ottawa Senators,7,Arizona Coyotes,4,n/a
+2016-10-18,Tampa Bay Lightning,4,Florida Panthers,3,SO
+2016-10-18,Vancouver Canucks,2,St. Louis Blues,1,OT
+2016-10-18,Washington Capitals,3,Colorado Avalanche,0,n/a
+2016-10-19,Detroit Red Wings,2,New York Rangers,1,n/a
+2016-10-19,Winnipeg Jets,5,Toronto Maple Leafs,4,OT
+2016-10-20,Boston Bruins,2,New Jersey Devils,1,n/a
+2016-10-20,Carolina Hurricanes,4,Calgary Flames,2,n/a
+2016-10-20,Los Angeles Kings,4,Dallas Stars,3,OT
+2016-10-20,Edmonton Oilers,3,St. Louis Blues,1,n/a
+2016-10-20,Washington Capitals,4,Florida Panthers,2,n/a
+2016-10-20,Minnesota Wild,3,Toronto Maple Leafs,2,n/a
+2016-10-20,Montreal Canadiens,5,Arizona Coyotes,2,n/a
+2016-10-20,Anaheim Ducks,3,Philadelphia Flyers,2,n/a
+2016-10-20,Pittsburgh Penguins,3,San Jose Sharks,2,n/a
+2016-10-20,Colorado Avalanche,4,Tampa Bay Lightning,0,n/a
+2016-10-20,Vancouver Canucks,2,Buffalo Sabres,1,n/a
+2016-10-21,Columbus Blue Jackets,3,Chicago Blackhawks,2,n/a
+2016-10-21,Detroit Red Wings,5,Nashville Predators,3,n/a
+2016-10-21,New York Islanders,3,Arizona Coyotes,2,n/a
+2016-10-22,Montreal Canadiens,4,Boston Bruins,2,n/a
+2016-10-22,St. Louis Blues,6,Calgary Flames,4,n/a
+2016-10-22,Chicago Blackhawks,5,Toronto Maple Leafs,4,SO
+2016-10-22,Columbus Blue Jackets,3,Dallas Stars,0,n/a
+2016-10-22,Detroit Red Wings,3,San Jose Sharks,0,n/a
+2016-10-22,Florida Panthers,5,Colorado Avalanche,2,n/a
+2016-10-22,Los Angeles Kings,4,Vancouver Canucks,3,SO
+2016-10-22,New Jersey Devils,2,Minnesota Wild,1,OT
+2016-10-22,Nashville Predators,5,Pittsburgh Penguins,1,n/a
+2016-10-22,Tampa Bay Lightning,4,Ottawa Senators,1,n/a
+2016-10-22,Philadelphia Flyers,6,Carolina Hurricanes,3,n/a
+2016-10-22,New York Rangers,4,Washington Capitals,2,n/a
+2016-10-23,Anaheim Ducks,4,Vancouver Canucks,2,n/a
+2016-10-23,New York Islanders,6,Minnesota Wild,3,n/a
+2016-10-23,New York Rangers,3,Arizona Coyotes,2,n/a
+2016-10-23,Edmonton Oilers,3,Winnipeg Jets,0,n/a
+2016-10-24,Calgary Flames,3,Chicago Blackhawks,2,SO
+2016-10-24,Montreal Canadiens,3,Philadelphia Flyers,1,n/a
+2016-10-25,Minnesota Wild,5,Boston Bruins,0,n/a
+2016-10-25,Dallas Stars,3,Winnipeg Jets,2,n/a
+2016-10-25,Detroit Red Wings,4,Carolina Hurricanes,2,n/a
+2016-10-25,Los Angeles Kings,3,Columbus Blue Jackets,2,OT
+2016-10-25,New Jersey Devils,5,Arizona Coyotes,3,n/a
+2016-10-25,Philadelphia Flyers,4,Buffalo Sabres,3,SO
+2016-10-25,Pittsburgh Penguins,3,Florida Panthers,2,n/a
+2016-10-25,San Jose Sharks,2,Anaheim Ducks,1,OT
+2016-10-25,Calgary Flames,4,St. Louis Blues,1,n/a
+2016-10-25,Tampa Bay Lightning,7,Toronto Maple Leafs,3,n/a
+2016-10-25,Ottawa Senators,3,Vancouver Canucks,0,n/a
+2016-10-26,Anaheim Ducks,6,Nashville Predators,1,n/a
+2016-10-26,Edmonton Oilers,4,Washington Capitals,1,n/a
+2016-10-26,Montreal Canadiens,3,New York Islanders,2,n/a
+2016-10-26,New York Rangers,5,Boston Bruins,2,n/a
+2016-10-27,Minnesota Wild,4,Buffalo Sabres,0,n/a
+2016-10-27,Los Angeles Kings,3,Nashville Predators,2,OT
+2016-10-27,Montreal Canadiens,3,Tampa Bay Lightning,1,n/a
+2016-10-27,Arizona Coyotes,5,Philadelphia Flyers,4,n/a
+2016-10-27,Pittsburgh Penguins,4,New York Islanders,2,n/a
+2016-10-27,San Jose Sharks,3,Columbus Blue Jackets,1,n/a
+2016-10-27,Detroit Red Wings,2,St. Louis Blues,1,SO
+2016-10-27,Toronto Maple Leafs,3,Florida Panthers,2,n/a
+2016-10-27,Winnipeg Jets,4,Dallas Stars,1,n/a
+2016-10-28,Columbus Blue Jackets,4,Anaheim Ducks,0,n/a
+2016-10-28,Carolina Hurricanes,3,New York Rangers,2,n/a
+2016-10-28,Calgary Flames,5,Ottawa Senators,2,n/a
+2016-10-28,Winnipeg Jets,1,Colorado Avalanche,0,n/a
+2016-10-28,Chicago Blackhawks,3,New Jersey Devils,2,OT
+2016-10-28,Edmonton Oilers,2,Vancouver Canucks,0,n/a
+2016-10-29,Colorado Avalanche,3,Arizona Coyotes,2,n/a
+2016-10-29,Buffalo Sabres,3,Florida Panthers,0,n/a
+2016-10-29,Boston Bruins,1,Detroit Red Wings,0,n/a
+2016-10-29,Minnesota Wild,4,Dallas Stars,0,n/a
+2016-10-29,Montreal Canadiens,2,Toronto Maple Leafs,1,n/a
+2016-10-29,New Jersey Devils,3,Tampa Bay Lightning,1,n/a
+2016-10-29,Pittsburgh Penguins,5,Philadelphia Flyers,4,n/a
+2016-10-29,San Jose Sharks,4,Nashville Predators,1,n/a
+2016-10-29,St. Louis Blues,1,Los Angeles Kings,0,n/a
+2016-10-29,Washington Capitals,5,Vancouver Canucks,2,n/a
+2016-10-30,Philadelphia Flyers,4,Carolina Hurricanes,3,n/a
+2016-10-30,Washington Capitals,3,Calgary Flames,1,n/a
+2016-10-30,Chicago Blackhawks,3,Los Angeles Kings,0,n/a
+2016-10-30,Florida Panthers,5,Detroit Red Wings,2,n/a
+2016-10-30,Ottawa Senators,2,Edmonton Oilers,0,n/a
+2016-10-30,New York Islanders,5,Toronto Maple Leafs,1,n/a
+2016-10-30,New York Rangers,6,Tampa Bay Lightning,1,n/a
+2016-10-30,Buffalo Sabres,3,Winnipeg Jets,1,n/a
+2016-11-01,Arizona Coyotes,3,San Jose Sharks,2,n/a
+2016-11-01,Columbus Blue Jackets,3,Dallas Stars,2,OT
+2016-11-01,Chicago Blackhawks,5,Calgary Flames,1,n/a
+2016-11-01,Nashville Predators,5,Colorado Avalanche,1,n/a
+2016-11-01,Boston Bruins,2,Florida Panthers,1,n/a
+2016-11-01,Anaheim Ducks,4,Los Angeles Kings,0,n/a
+2016-11-01,Buffalo Sabres,2,Minnesota Wild,1,n/a
+2016-11-01,Tampa Bay Lightning,6,New York Islanders,1,n/a
+2016-11-01,New York Rangers,5,St. Louis Blues,0,n/a
+2016-11-01,Ottawa Senators,2,Carolina Hurricanes,1,OT
+2016-11-01,Toronto Maple Leafs,3,Edmonton Oilers,2,OT
+2016-11-01,Washington Capitals,3,Winnipeg Jets,2,n/a
+2016-11-02,Pittsburgh Penguins,5,Anaheim Ducks,1,n/a
+2016-11-02,Montreal Canadiens,3,Vancouver Canucks,0,n/a
+2016-11-02,Philadelphia Flyers,4,Detroit Red Wings,3,OT
+2016-11-03,Arizona Coyotes,3,Nashville Predators,2,SO
+2016-11-03,Toronto Maple Leafs,2,Buffalo Sabres,1,n/a
+2016-11-03,Chicago Blackhawks,4,Colorado Avalanche,0,n/a
+2016-11-03,Dallas Stars,6,St. Louis Blues,2,n/a
+2016-11-03,Florida Panthers,4,New Jersey Devils,3,OT
+2016-11-03,Los Angeles Kings,3,Pittsburgh Penguins,2,OT
+2016-11-03,Philadelphia Flyers,3,New York Islanders,2,SO
+2016-11-03,New York Rangers,5,Edmonton Oilers,3,n/a
+2016-11-03,Ottawa Senators,1,Vancouver Canucks,0,n/a
+2016-11-03,Calgary Flames,3,San Jose Sharks,2,n/a
+2016-11-03,Boston Bruins,4,Tampa Bay Lightning,3,SO
+2016-11-03,Washington Capitals,4,Winnipeg Jets,3,OT
+2016-11-04,Anaheim Ducks,5,Arizona Coyotes,1,n/a
+2016-11-04,Columbus Blue Jackets,10,Montreal Canadiens,0,n/a
+2016-11-04,Winnipeg Jets,5,Detroit Red Wings,3,n/a
+2016-11-05,New York Rangers,5,Boston Bruins,2,n/a
+2016-11-05,Colorado Avalanche,1,Minnesota Wild,0,n/a
+2016-11-05,Chicago Blackhawks,3,Dallas Stars,2,n/a
+2016-11-05,Los Angeles Kings,5,Calgary Flames,0,n/a
+2016-11-05,Montreal Canadiens,5,Philadelphia Flyers,4,n/a
+2016-11-05,Carolina Hurricanes,3,Nashville Predators,2,SO
+2016-11-05,Edmonton Oilers,4,New York Islanders,3,SO
+2016-11-05,Buffalo Sabres,2,Ottawa Senators,1,n/a
+2016-11-05,Pittsburgh Penguins,5,San Jose Sharks,0,n/a
+2016-11-05,St. Louis Blues,2,Columbus Blue Jackets,1,OT
+2016-11-05,Tampa Bay Lightning,4,New Jersey Devils,1,n/a
+2016-11-05,Toronto Maple Leafs,6,Vancouver Canucks,3,n/a
+2016-11-05,Washington Capitals,4,Florida Panthers,2,n/a
+2016-11-06,Anaheim Ducks,4,Calgary Flames,1,n/a
+2016-11-06,New Jersey Devils,4,Carolina Hurricanes,1,n/a
+2016-11-06,Chicago Blackhawks,4,Dallas Stars,3,OT
+2016-11-06,Edmonton Oilers,2,Detroit Red Wings,1,n/a
+2016-11-06,New York Rangers,5,Winnipeg Jets,2,n/a
+2016-11-06,St. Louis Blues,5,Colorado Avalanche,1,n/a
+2016-11-07,Boston Bruins,4,Buffalo Sabres,0,n/a
+2016-11-07,Florida Panthers,3,Tampa Bay Lightning,1,n/a
+2016-11-07,New York Islanders,4,Vancouver Canucks,2,n/a
+2016-11-08,Arizona Coyotes,4,Colorado Avalanche,2,n/a
+2016-11-08,Montreal Canadiens,3,Boston Bruins,2,n/a
+2016-11-08,New Jersey Devils,3,Carolina Hurricanes,2,SO
+2016-11-08,Nashville Predators,3,Ottawa Senators,1,n/a
+2016-11-08,Vancouver Canucks,5,New York Rangers,3,n/a
+2016-11-08,Detroit Red Wings,3,Philadelphia Flyers,2,SO
+2016-11-08,Pittsburgh Penguins,4,Edmonton Oilers,3,n/a
+2016-11-08,Los Angeles Kings,7,Toronto Maple Leafs,0,n/a
+2016-11-08,Winnipeg Jets,8,Dallas Stars,2,n/a
+2016-11-08,San Jose Sharks,3,Washington Capitals,0,n/a
+2016-11-09,Ottawa Senators,2,Buffalo Sabres,1,SO
+2016-11-09,Columbus Blue Jackets,3,Anaheim Ducks,2,OT
+2016-11-09,Chicago Blackhawks,2,St. Louis Blues,1,OT
+2016-11-10,Winnipeg Jets,3,Arizona Coyotes,2,n/a
+2016-11-10,Boston Bruins,5,Columbus Blue Jackets,2,n/a
+2016-11-10,Anaheim Ducks,4,Carolina Hurricanes,2,n/a
+2016-11-10,Dallas Stars,4,Calgary Flames,2,n/a
+2016-11-10,Detroit Red Wings,3,Vancouver Canucks,1,n/a
+2016-11-10,San Jose Sharks,4,Florida Panthers,2,n/a
+2016-11-10,Montreal Canadiens,4,Los Angeles Kings,1,n/a
+2016-11-10,Nashville Predators,3,St. Louis Blues,1,n/a
+2016-11-10,Minnesota Wild,4,Pittsburgh Penguins,2,n/a
+2016-11-10,Tampa Bay Lightning,4,New York Islanders,1,n/a
+2016-11-11,New Jersey Devils,2,Buffalo Sabres,1,OT
+2016-11-11,Washington Capitals,3,Chicago Blackhawks,2,OT
+2016-11-11,Colorado Avalanche,3,Winnipeg Jets,2,OT
+2016-11-11,Dallas Stars,3,Edmonton Oilers,2,n/a
+2016-11-11,Ottawa Senators,2,Los Angeles Kings,1,n/a
+2016-11-11,Toronto Maple Leafs,6,Philadelphia Flyers,3,n/a
+2016-11-12,Boston Bruins,2,Arizona Coyotes,1,n/a
+2016-11-12,Carolina Hurricanes,5,Washington Capitals,1,n/a
+2016-11-12,Columbus Blue Jackets,8,St. Louis Blues,4,n/a
+2016-11-12,New York Rangers,4,Calgary Flames,1,n/a
+2016-11-12,Florida Panthers,3,New York Islanders,2,OT
+2016-11-12,Montreal Canadiens,5,Detroit Red Wings,0,n/a
+2016-11-12,New Jersey Devils,4,Buffalo Sabres,2,n/a
+2016-11-12,Nashville Predators,5,Anaheim Ducks,0,n/a
+2016-11-12,Philadelphia Flyers,3,Minnesota Wild,2,n/a
+2016-11-12,Pittsburgh Penguins,4,Toronto Maple Leafs,1,n/a
+2016-11-12,San Jose Sharks,3,Tampa Bay Lightning,1,n/a
+2016-11-13,Chicago Blackhawks,3,Montreal Canadiens,2,n/a
+2016-11-13,Boston Bruins,2,Colorado Avalanche,0,n/a
+2016-11-13,New York Rangers,3,Edmonton Oilers,1,n/a
+2016-11-13,Minnesota Wild,2,Ottawa Senators,1,OT
+2016-11-13,Vancouver Canucks,5,Dallas Stars,4,OT
+2016-11-13,Winnipeg Jets,3,Los Angeles Kings,2,SO
+2016-11-14,Tampa Bay Lightning,4,New York Islanders,0,n/a
+2016-11-15,Anaheim Ducks,4,Edmonton Oilers,1,n/a
+2016-11-15,Carolina Hurricanes,1,San Jose Sharks,0,n/a
+2016-11-15,Columbus Blue Jackets,2,Washington Capitals,1,OT
+2016-11-15,Colorado Avalanche,4,Los Angeles Kings,1,n/a
+2016-11-15,New Jersey Devils,2,Dallas Stars,1,OT
+2016-11-15,Tampa Bay Lightning,4,Detroit Red Wings,3,n/a
+2016-11-15,Calgary Flames,1,Minnesota Wild,0,n/a
+2016-11-15,Florida Panthers,4,Montreal Canadiens,3,OT
+2016-11-15,Ottawa Senators,3,Philadelphia Flyers,2,SO
+2016-11-15,St. Louis Blues,4,Buffalo Sabres,1,n/a
+2016-11-15,Toronto Maple Leafs,6,Nashville Predators,2,n/a
+2016-11-15,New York Rangers,7,Vancouver Canucks,2,n/a
+2016-11-15,Winnipeg Jets,4,Chicago Blackhawks,0,n/a
+2016-11-16,Calgary Flames,2,Arizona Coyotes,1,OT
+2016-11-16,Washington Capitals,7,Pittsburgh Penguins,1,n/a
+2016-11-17,Anaheim Ducks,3,New Jersey Devils,2,n/a
+2016-11-17,Tampa Bay Lightning,4,Buffalo Sabres,1,n/a
+2016-11-17,Dallas Stars,3,Colorado Avalanche,2,n/a
+2016-11-17,Los Angeles Kings,4,Edmonton Oilers,2,n/a
+2016-11-17,Minnesota Wild,1,Boston Bruins,0,n/a
+2016-11-17,Nashville Predators,5,Ottawa Senators,1,n/a
+2016-11-17,Philadelphia Flyers,5,Winnipeg Jets,2,n/a
+2016-11-17,St. Louis Blues,3,San Jose Sharks,2,n/a
+2016-11-17,Toronto Maple Leafs,6,Florida Panthers,1,n/a
+2016-11-17,Vancouver Canucks,3,Arizona Coyotes,2,OT
+2016-11-18,Carolina Hurricanes,3,Montreal Canadiens,2,n/a
+2016-11-18,Columbus Blue Jackets,4,New York Rangers,2,n/a
+2016-11-18,Chicago Blackhawks,3,Calgary Flames,2,n/a
+2016-11-18,Pittsburgh Penguins,3,New York Islanders,2,OT
+2016-11-18,Washington Capitals,1,Detroit Red Wings,0,n/a
+2016-11-19,Arizona Coyotes,3,San Jose Sharks,2,OT
+2016-11-19,Boston Bruins,4,Winnipeg Jets,1,n/a
+2016-11-19,Buffalo Sabres,2,Pittsburgh Penguins,1,SO
+2016-11-19,Edmonton Oilers,5,Dallas Stars,2,n/a
+2016-11-19,Los Angeles Kings,4,New Jersey Devils,2,n/a
+2016-11-19,Colorado Avalanche,3,Minnesota Wild,2,n/a
+2016-11-19,Montreal Canadiens,2,Toronto Maple Leafs,1,n/a
+2016-11-19,Florida Panthers,4,Ottawa Senators,1,n/a
+2016-11-19,Tampa Bay Lightning,3,Philadelphia Flyers,0,n/a
+2016-11-19,St. Louis Blues,3,Nashville Predators,1,n/a
+2016-11-19,Chicago Blackhawks,4,Vancouver Canucks,3,OT
+2016-11-20,Los Angeles Kings,3,Anaheim Ducks,2,n/a
+2016-11-20,Carolina Hurricanes,3,Winnipeg Jets,1,n/a
+2016-11-20,Calgary Flames,3,Detroit Red Wings,2,n/a
+2016-11-20,Florida Panthers,3,New York Rangers,2,SO
+2016-11-20,Columbus Blue Jackets,3,Washington Capitals,2,n/a
+2016-11-21,Buffalo Sabres,4,Calgary Flames,2,n/a
+2016-11-21,Colorado Avalanche,3,Columbus Blue Jackets,2,OT
+2016-11-21,Dallas Stars,3,Minnesota Wild,2,OT
+2016-11-21,Edmonton Oilers,5,Chicago Blackhawks,0,n/a
+2016-11-21,Nashville Predators,3,Tampa Bay Lightning,1,n/a
+2016-11-21,New York Rangers,5,Pittsburgh Penguins,2,n/a
+2016-11-21,San Jose Sharks,4,New Jersey Devils,0,n/a
+2016-11-22,New York Islanders,3,Anaheim Ducks,2,SO
+2016-11-22,St. Louis Blues,4,Boston Bruins,2,n/a
+2016-11-22,Philadelphia Flyers,3,Florida Panthers,1,n/a
+2016-11-22,Ottawa Senators,4,Montreal Canadiens,3,n/a
+2016-11-22,Carolina Hurricanes,2,Toronto Maple Leafs,1,n/a
+2016-11-23,Vancouver Canucks,4,Arizona Coyotes,1,n/a
+2016-11-23,Detroit Red Wings,2,Buffalo Sabres,1,SO
+2016-11-23,Calgary Flames,2,Columbus Blue Jackets,0,n/a
+2016-11-23,Edmonton Oilers,6,Colorado Avalanche,3,n/a
+2016-11-23,Los Angeles Kings,4,New York Islanders,2,n/a
+2016-11-23,Minnesota Wild,3,Winnipeg Jets,1,n/a
+2016-11-23,New Jersey Devils,5,Toronto Maple Leafs,4,SO
+2016-11-23,Nashville Predators,5,Dallas Stars,2,n/a
+2016-11-23,Pittsburgh Penguins,6,New York Rangers,1,n/a
+2016-11-23,San Jose Sharks,2,Chicago Blackhawks,1,n/a
+2016-11-23,Tampa Bay Lightning,4,Philadelphia Flyers,2,n/a
+2016-11-23,Washington Capitals,4,St. Louis Blues,3,n/a
+2016-11-24,Montreal Canadiens,2,Carolina Hurricanes,1,n/a
+2016-11-24,Ottawa Senators,3,Boston Bruins,1,n/a
+2016-11-25,Chicago Blackhawks,3,Anaheim Ducks,2,n/a
+2016-11-25,Arizona Coyotes,3,Edmonton Oilers,2,SO
+2016-11-25,Calgary Flames,2,Boston Bruins,1,n/a
+2016-11-25,Dallas Stars,2,Vancouver Canucks,1,n/a
+2016-11-25,Minnesota Wild,6,Pittsburgh Penguins,2,n/a
+2016-11-25,Detroit Red Wings,5,New Jersey Devils,4,OT
+2016-11-25,Nashville Predators,5,Winnipeg Jets,1,n/a
+2016-11-25,New York Rangers,3,Philadelphia Flyers,2,n/a
+2016-11-25,San Jose Sharks,3,New York Islanders,2,n/a
+2016-11-25,Columbus Blue Jackets,5,Tampa Bay Lightning,3,n/a
+2016-11-25,Washington Capitals,3,Buffalo Sabres,1,n/a
+2016-11-26,Vancouver Canucks,3,Colorado Avalanche,2,SO
+2016-11-26,Montreal Canadiens,2,Detroit Red Wings,1,OT
+2016-11-26,Florida Panthers,2,Columbus Blue Jackets,1,SO
+2016-11-26,Los Angeles Kings,2,Chicago Blackhawks,1,OT
+2016-11-26,Ottawa Senators,2,Carolina Hurricanes,1,n/a
+2016-11-26,Pittsburgh Penguins,4,New Jersey Devils,3,SO
+2016-11-26,Anaheim Ducks,3,San Jose Sharks,2,n/a
+2016-11-26,St. Louis Blues,4,Minnesota Wild,3,SO
+2016-11-26,Toronto Maple Leafs,4,Washington Capitals,2,n/a
+2016-11-27,Boston Bruins,4,Tampa Bay Lightning,1,n/a
+2016-11-27,Carolina Hurricanes,3,Florida Panthers,2,n/a
+2016-11-27,Arizona Coyotes,2,Edmonton Oilers,1,n/a
+2016-11-27,Ottawa Senators,2,New York Rangers,0,n/a
+2016-11-27,Philadelphia Flyers,5,Calgary Flames,3,n/a
+2016-11-27,Winnipeg Jets,3,Nashville Predators,0,n/a
+2016-11-28,New York Islanders,2,Calgary Flames,1,OT
+2016-11-28,St. Louis Blues,4,Dallas Stars,3,OT
+2016-11-29,Anaheim Ducks,2,Montreal Canadiens,1,n/a
+2016-11-29,Columbus Blue Jackets,5,Tampa Bay Lightning,1,n/a
+2016-11-29,Chicago Blackhawks,2,Florida Panthers,1,SO
+2016-11-29,Nashville Predators,5,Colorado Avalanche,3,n/a
+2016-11-29,Detroit Red Wings,3,Dallas Stars,1,n/a
+2016-11-29,Toronto Maple Leafs,4,Edmonton Oilers,2,n/a
+2016-11-29,New York Rangers,3,Carolina Hurricanes,2,n/a
+2016-11-29,Buffalo Sabres,5,Ottawa Senators,4,n/a
+2016-11-29,Philadelphia Flyers,3,Boston Bruins,2,SO
+2016-11-29,San Jose Sharks,2,Arizona Coyotes,1,OT
+2016-11-29,Vancouver Canucks,5,Minnesota Wild,4,n/a
+2016-11-29,Winnipeg Jets,3,New Jersey Devils,2,n/a
+2016-11-30,Calgary Flames,3,Toronto Maple Leafs,0,n/a
+2016-11-30,San Jose Sharks,4,Los Angeles Kings,1,n/a
+2016-11-30,New York Islanders,5,Pittsburgh Penguins,3,n/a
+2016-12-01,Los Angeles Kings,4,Arizona Coyotes,3,n/a
+2016-12-01,Boston Bruins,2,Carolina Hurricanes,1,SO
+2016-12-01,Buffalo Sabres,4,New York Rangers,3,n/a
+2016-12-01,Chicago Blackhawks,4,New Jersey Devils,3,OT
+2016-12-01,Columbus Blue Jackets,3,Colorado Avalanche,2,n/a
+2016-12-01,Florida Panthers,2,Detroit Red Wings,1,OT
+2016-12-01,Philadelphia Flyers,3,Ottawa Senators,2,OT
+2016-12-01,Pittsburgh Penguins,6,Dallas Stars,2,n/a
+2016-12-01,St. Louis Blues,5,Tampa Bay Lightning,4,n/a
+2016-12-01,Anaheim Ducks,3,Vancouver Canucks,1,n/a
+2016-12-01,Edmonton Oilers,6,Winnipeg Jets,3,n/a
+2016-12-01,New York Islanders,3,Washington Capitals,0,n/a
+2016-12-02,Calgary Flames,3,Minnesota Wild,2,SO
+2016-12-02,San Jose Sharks,2,Montreal Canadiens,1,n/a
+2016-12-03,Columbus Blue Jackets,3,Arizona Coyotes,2,SO
+2016-12-03,Boston Bruins,2,Buffalo Sabres,1,n/a
+2016-12-03,Dallas Stars,3,Colorado Avalanche,0,n/a
+2016-12-03,Edmonton Oilers,3,Anaheim Ducks,2,OT
+2016-12-03,New Jersey Devils,5,Nashville Predators,4,OT
+2016-12-03,New York Rangers,4,Carolina Hurricanes,2,n/a
+2016-12-03,Ottawa Senators,2,Florida Panthers,0,n/a
+2016-12-03,Philadelphia Flyers,3,Chicago Blackhawks,1,n/a
+2016-12-03,Pittsburgh Penguins,5,Detroit Red Wings,3,n/a
+2016-12-03,Winnipeg Jets,3,St. Louis Blues,2,OT
+2016-12-03,Tampa Bay Lightning,2,Washington Capitals,1,SO
+2016-12-03,Vancouver Canucks,3,Toronto Maple Leafs,2,SO
+2016-12-04,Carolina Hurricanes,1,Tampa Bay Lightning,0,OT
+2016-12-04,Calgary Flames,8,Anaheim Ducks,3,n/a
+2016-12-04,Winnipeg Jets,2,Chicago Blackhawks,1,n/a
+2016-12-04,Minnesota Wild,2,Edmonton Oilers,1,OT
+2016-12-04,Montreal Canadiens,5,Los Angeles Kings,4,SO
+2016-12-04,Philadelphia Flyers,4,Nashville Predators,2,n/a
+2016-12-04,Detroit Red Wings,4,New York Islanders,3,OT
+2016-12-05,Boston Bruins,4,Florida Panthers,3,OT
+2016-12-05,Columbus Blue Jackets,4,Arizona Coyotes,1,n/a
+2016-12-05,Pittsburgh Penguins,8,Ottawa Senators,5,n/a
+2016-12-05,Washington Capitals,3,Buffalo Sabres,2,OT
+2016-12-06,Buffalo Sabres,4,Edmonton Oilers,3,OT
+2016-12-06,Chicago Blackhawks,4,Arizona Coyotes,0,n/a
+2016-12-06,Calgary Flames,2,Dallas Stars,1,n/a
+2016-12-06,New Jersey Devils,3,Vancouver Canucks,2,n/a
+2016-12-06,Nashville Predators,4,Colorado Avalanche,3,n/a
+2016-12-06,New York Islanders,4,New York Rangers,2,n/a
+2016-12-06,Philadelphia Flyers,3,Florida Panthers,2,OT
+2016-12-06,St. Louis Blues,3,Montreal Canadiens,2,OT
+2016-12-06,Detroit Red Wings,4,Winnipeg Jets,3,SO
+2016-12-07,Anaheim Ducks,6,Carolina Hurricanes,5,SO
+2016-12-07,Ottawa Senators,4,San Jose Sharks,2,n/a
+2016-12-07,Minnesota Wild,3,Toronto Maple Leafs,2,n/a
+2016-12-07,Washington Capitals,4,Boston Bruins,3,OT
+2016-12-08,Calgary Flames,2,Arizona Coyotes,1,OT
+2016-12-08,Colorado Avalanche,4,Boston Bruins,2,n/a
+2016-12-08,Dallas Stars,5,Nashville Predators,2,n/a
+2016-12-08,Pittsburgh Penguins,5,Florida Panthers,1,n/a
+2016-12-08,Carolina Hurricanes,3,Los Angeles Kings,1,n/a
+2016-12-08,Montreal Canadiens,5,New Jersey Devils,2,n/a
+2016-12-08,New York Islanders,3,St. Louis Blues,2,n/a
+2016-12-08,Philadelphia Flyers,6,Edmonton Oilers,5,n/a
+2016-12-08,Vancouver Canucks,5,Tampa Bay Lightning,1,n/a
+2016-12-08,New York Rangers,2,Winnipeg Jets,1,n/a
+2016-12-09,Anaheim Ducks,3,San Jose Sharks,2,n/a
+2016-12-09,Washington Capitals,4,Buffalo Sabres,1,n/a
+2016-12-09,New York Rangers,1,Chicago Blackhawks,0,OT
+2016-12-09,Columbus Blue Jackets,4,Detroit Red Wings,1,n/a
+2016-12-09,Minnesota Wild,3,Edmonton Oilers,2,SO
+2016-12-09,St. Louis Blues,4,New Jersey Devils,1,n/a
+2016-12-10,Arizona Coyotes,4,Nashville Predators,1,n/a
+2016-12-10,Toronto Maple Leafs,4,Boston Bruins,1,n/a
+2016-12-10,Columbus Blue Jackets,6,New York Islanders,2,n/a
+2016-12-10,Calgary Flames,6,Winnipeg Jets,2,n/a
+2016-12-10,Florida Panthers,4,Vancouver Canucks,2,n/a
+2016-12-10,Los Angeles Kings,4,Ottawa Senators,1,n/a
+2016-12-10,Montreal Canadiens,10,Colorado Avalanche,1,n/a
+2016-12-10,Philadelphia Flyers,4,Dallas Stars,2,n/a
+2016-12-10,San Jose Sharks,4,Carolina Hurricanes,3,n/a
+2016-12-10,Pittsburgh Penguins,4,Tampa Bay Lightning,3,n/a
+2016-12-11,Anaheim Ducks,5,Ottawa Senators,1,n/a
+2016-12-11,Chicago Blackhawks,3,Dallas Stars,1,n/a
+2016-12-11,Philadelphia Flyers,1,Detroit Red Wings,0,OT
+2016-12-11,Edmonton Oilers,3,Winnipeg Jets,2,n/a
+2016-12-11,Minnesota Wild,3,St. Louis Blues,1,n/a
+2016-12-11,New York Rangers,5,New Jersey Devils,0,n/a
+2016-12-11,Colorado Avalanche,3,Toronto Maple Leafs,1,n/a
+2016-12-11,Washington Capitals,3,Vancouver Canucks,0,n/a
+2016-12-12,Boston Bruins,2,Montreal Canadiens,1,OT
+2016-12-12,Pittsburgh Penguins,7,Arizona Coyotes,0,n/a
+2016-12-13,Buffalo Sabres,6,Los Angeles Kings,3,n/a
+2016-12-13,Carolina Hurricanes,8,Vancouver Canucks,6,n/a
+2016-12-13,Dallas Stars,6,Anaheim Ducks,2,n/a
+2016-12-13,Arizona Coyotes,4,Detroit Red Wings,1,n/a
+2016-12-13,Columbus Blue Jackets,3,Edmonton Oilers,1,n/a
+2016-12-13,Minnesota Wild,5,Florida Panthers,1,n/a
+2016-12-13,Nashville Predators,6,St. Louis Blues,3,n/a
+2016-12-13,Washington Capitals,4,New York Islanders,2,n/a
+2016-12-13,Chicago Blackhawks,2,New York Rangers,1,n/a
+2016-12-13,San Jose Sharks,3,Toronto Maple Leafs,2,SO
+2016-12-14,Tampa Bay Lightning,6,Calgary Flames,3,n/a
+2016-12-14,Philadelphia Flyers,4,Colorado Avalanche,3,n/a
+2016-12-14,San Jose Sharks,4,Ottawa Senators,3,SO
+2016-12-14,Pittsburgh Penguins,4,Boston Bruins,3,OT
+2016-12-15,Anaheim Ducks,4,Boston Bruins,3,n/a
+2016-12-15,New York Rangers,2,Dallas Stars,0,n/a
+2016-12-15,Los Angeles Kings,4,Detroit Red Wings,1,n/a
+2016-12-15,Minnesota Wild,5,Nashville Predators,2,n/a
+2016-12-15,Chicago Blackhawks,5,New York Islanders,4,n/a
+2016-12-15,St. Louis Blues,5,New Jersey Devils,2,n/a
+2016-12-15,Arizona Coyotes,3,Toronto Maple Leafs,2,SO
+2016-12-15,Winnipeg Jets,4,Florida Panthers,3,SO
+2016-12-16,Buffalo Sabres,3,New York Islanders,2,OT
+2016-12-16,Washington Capitals,4,Carolina Hurricanes,3,SO
+2016-12-16,Columbus Blue Jackets,4,Calgary Flames,1,n/a
+2016-12-16,Florida Panthers,3,Colorado Avalanche,1,n/a
+2016-12-16,San Jose Sharks,4,Montreal Canadiens,2,n/a
+2016-12-16,Los Angeles Kings,1,Pittsburgh Penguins,0,OT
+2016-12-16,Vancouver Canucks,4,Tampa Bay Lightning,2,n/a
+2016-12-17,Carolina Hurricanes,2,Buffalo Sabres,1,SO
+2016-12-17,Dallas Stars,3,Philadelphia Flyers,1,n/a
+2016-12-17,Detroit Red Wings,6,Anaheim Ducks,4,n/a
+2016-12-17,Edmonton Oilers,3,Tampa Bay Lightning,2,SO
+2016-12-17,Minnesota Wild,4,Arizona Coyotes,1,n/a
+2016-12-17,New York Rangers,2,Nashville Predators,1,SO
+2016-12-17,Ottawa Senators,3,New Jersey Devils,1,n/a
+2016-12-17,Chicago Blackhawks,6,St. Louis Blues,4,n/a
+2016-12-17,Toronto Maple Leafs,2,Pittsburgh Penguins,1,OT
+2016-12-17,Montreal Canadiens,2,Washington Capitals,1,n/a
+2016-12-18,Boston Bruins,1,Los Angeles Kings,0,n/a
+2016-12-18,Chicago Blackhawks,4,San Jose Sharks,1,n/a
+2016-12-18,Ottawa Senators,6,New York Islanders,2,n/a
+2016-12-18,New York Rangers,3,New Jersey Devils,2,SO
+2016-12-18,Columbus Blue Jackets,4,Vancouver Canucks,3,OT
+2016-12-18,Winnipeg Jets,4,Colorado Avalanche,1,n/a
+2016-12-19,Calgary Flames,4,Arizona Coyotes,2,n/a
+2016-12-19,Nashville Predators,2,Philadelphia Flyers,1,SO
+2016-12-19,Edmonton Oilers,3,St. Louis Blues,2,OT
+2016-12-19,Anaheim Ducks,3,Toronto Maple Leafs,2,n/a
+2016-12-20,New York Islanders,4,Boston Bruins,2,n/a
+2016-12-20,Columbus Blue Jackets,3,Los Angeles Kings,2,SO
+2016-12-20,Ottawa Senators,4,Chicago Blackhawks,3,n/a
+2016-12-20,St. Louis Blues,3,Dallas Stars,2,OT
+2016-12-20,Florida Panthers,4,Buffalo Sabres,3,SO
+2016-12-20,Minnesota Wild,2,Colorado Avalanche,0,n/a
+2016-12-20,Montreal Canadiens,5,Anaheim Ducks,1,n/a
+2016-12-20,Nashville Predators,5,New Jersey Devils,1,n/a
+2016-12-20,Pittsburgh Penguins,7,New York Rangers,2,n/a
+2016-12-20,San Jose Sharks,4,Calgary Flames,1,n/a
+2016-12-20,Tampa Bay Lightning,4,Detroit Red Wings,1,n/a
+2016-12-20,Vancouver Canucks,4,Winnipeg Jets,1,n/a
+2016-12-21,Edmonton Oilers,3,Arizona Coyotes,2,n/a
+2016-12-21,Philadelphia Flyers,3,Washington Capitals,2,SO
+2016-12-22,Carolina Hurricanes,3,Buffalo Sabres,1,n/a
+2016-12-22,Columbus Blue Jackets,7,Pittsburgh Penguins,1,n/a
+2016-12-22,Toronto Maple Leafs,6,Colorado Avalanche,0,n/a
+2016-12-22,Boston Bruins,3,Florida Panthers,1,n/a
+2016-12-22,Minnesota Wild,4,Montreal Canadiens,2,n/a
+2016-12-22,New Jersey Devils,4,Philadelphia Flyers,0,n/a
+2016-12-22,Los Angeles Kings,4,Nashville Predators,0,n/a
+2016-12-22,Ottawa Senators,2,Anaheim Ducks,1,OT
+2016-12-22,Tampa Bay Lightning,5,St. Louis Blues,2,n/a
+2016-12-22,Winnipeg Jets,4,Vancouver Canucks,1,n/a
+2016-12-23,Toronto Maple Leafs,4,Arizona Coyotes,1,n/a
+2016-12-23,Carolina Hurricanes,3,Boston Bruins,2,OT
+2016-12-23,Columbus Blue Jackets,2,Montreal Canadiens,1,n/a
+2016-12-23,Calgary Flames,4,Vancouver Canucks,1,n/a
+2016-12-23,Colorado Avalanche,2,Chicago Blackhawks,1,OT
+2016-12-23,Dallas Stars,3,Los Angeles Kings,2,OT
+2016-12-23,Detroit Red Wings,4,Florida Panthers,3,SO
+2016-12-23,New York Islanders,5,Buffalo Sabres,1,n/a
+2016-12-23,Minnesota Wild,7,New York Rangers,4,n/a
+2016-12-23,Pittsburgh Penguins,4,New Jersey Devils,1,n/a
+2016-12-23,San Jose Sharks,3,Edmonton Oilers,2,OT
+2016-12-23,Washington Capitals,4,Tampa Bay Lightning,0,n/a
+2016-12-27,San Jose Sharks,3,Anaheim Ducks,2,OT
+2016-12-27,Dallas Stars,3,Arizona Coyotes,2,n/a
+2016-12-27,Columbus Blue Jackets,4,Boston Bruins,3,n/a
+2016-12-27,Winnipeg Jets,3,Chicago Blackhawks,1,n/a
+2016-12-27,Calgary Flames,6,Colorado Avalanche,3,n/a
+2016-12-27,Buffalo Sabres,4,Detroit Red Wings,3,n/a
+2016-12-27,Pittsburgh Penguins,5,New Jersey Devils,2,n/a
+2016-12-27,Minnesota Wild,3,Nashville Predators,2,OT
+2016-12-27,New York Islanders,4,Washington Capitals,3,n/a
+2016-12-27,New York Rangers,4,Ottawa Senators,3,n/a
+2016-12-28,Toronto Maple Leafs,3,Florida Panthers,2,SO
+2016-12-28,Pittsburgh Penguins,3,Carolina Hurricanes,2,n/a
+2016-12-28,St. Louis Blues,6,Philadelphia Flyers,3,n/a
+2016-12-28,Tampa Bay Lightning,4,Montreal Canadiens,3,OT
+2016-12-28,Vancouver Canucks,2,Los Angeles Kings,1,n/a
+2016-12-29,New York Rangers,6,Arizona Coyotes,3,n/a
+2016-12-29,Boston Bruins,4,Buffalo Sabres,2,n/a
+2016-12-29,Anaheim Ducks,3,Calgary Flames,1,n/a
+2016-12-29,Dallas Stars,4,Colorado Avalanche,2,n/a
+2016-12-29,Edmonton Oilers,3,Los Angeles Kings,1,n/a
+2016-12-29,Montreal Canadiens,3,Florida Panthers,2,OT
+2016-12-29,Minnesota Wild,6,New York Islanders,4,n/a
+2016-12-29,Chicago Blackhawks,3,Nashville Predators,2,n/a
+2016-12-29,Detroit Red Wings,3,Ottawa Senators,2,OT
+2016-12-29,Toronto Maple Leafs,3,Tampa Bay Lightning,2,OT
+2016-12-29,Columbus Blue Jackets,5,Winnipeg Jets,3,n/a
+2016-12-29,New Jersey Devils,2,Washington Capitals,1,SO
+2016-12-30,Carolina Hurricanes,3,Chicago Blackhawks,2,n/a
+2016-12-30,San Jose Sharks,2,Philadelphia Flyers,0,n/a
+2016-12-30,Nashville Predators,4,St. Louis Blues,0,n/a
+2016-12-30,Vancouver Canucks,3,Anaheim Ducks,2,OT
+2016-12-31,Boston Bruins,3,Buffalo Sabres,1,n/a
+2016-12-31,Calgary Flames,4,Arizona Coyotes,2,n/a
+2016-12-31,New York Rangers,6,Colorado Avalanche,2,n/a
+2016-12-31,Florida Panthers,3,Dallas Stars,1,n/a
+2016-12-31,Vancouver Canucks,3,Edmonton Oilers,2,SO
+2016-12-31,Los Angeles Kings,3,San Jose Sharks,2,n/a
+2016-12-31,Columbus Blue Jackets,4,Minnesota Wild,2,n/a
+2016-12-31,Washington Capitals,6,New Jersey Devils,2,n/a
+2016-12-31,Pittsburgh Penguins,4,Montreal Canadiens,3,OT
+2016-12-31,Tampa Bay Lightning,3,Carolina Hurricanes,1,n/a
+2016-12-31,New York Islanders,6,Winnipeg Jets,2,n/a
+2017-01-01,Anaheim Ducks,4,Philadelphia Flyers,3,SO
+2017-01-01,Toronto Maple Leafs,5,Detroit Red Wings,4,OT
+2017-01-01,Washington Capitals,2,Ottawa Senators,1,n/a
+2017-01-02,New Jersey Devils,3,Boston Bruins,0,n/a
+2017-01-02,St. Louis Blues,4,Chicago Blackhawks,1,n/a
+2017-01-02,Vancouver Canucks,3,Colorado Avalanche,2,n/a
+2017-01-03,New Jersey Devils,3,Carolina Hurricanes,1,n/a
+2017-01-03,Columbus Blue Jackets,3,Edmonton Oilers,1,n/a
+2017-01-03,Montreal Canadiens,2,Nashville Predators,1,OT
+2017-01-03,Buffalo Sabres,4,New York Rangers,1,n/a
+2017-01-03,Los Angeles Kings,2,San Jose Sharks,1,OT
+2017-01-03,Winnipeg Jets,6,Tampa Bay Lightning,4,n/a
+2017-01-03,Washington Capitals,6,Toronto Maple Leafs,5,OT
+2017-01-04,Anaheim Ducks,2,Detroit Red Wings,0,n/a
+2017-01-04,Calgary Flames,4,Colorado Avalanche,1,n/a
+2017-01-04,Montreal Canadiens,4,Dallas Stars,3,OT
+2017-01-04,Winnipeg Jets,4,Florida Panthers,1,n/a
+2017-01-04,New York Rangers,5,Philadelphia Flyers,2,n/a
+2017-01-04,Vancouver Canucks,3,Arizona Coyotes,0,n/a
+2017-01-05,Edmonton Oilers,4,Boston Bruins,3,n/a
+2017-01-05,Chicago Blackhawks,4,Buffalo Sabres,3,OT
+2017-01-05,Detroit Red Wings,4,Los Angeles Kings,0,n/a
+2017-01-05,Minnesota Wild,5,San Jose Sharks,4,n/a
+2017-01-05,Carolina Hurricanes,4,St. Louis Blues,2,n/a
+2017-01-05,Nashville Predators,6,Tampa Bay Lightning,1,n/a
+2017-01-05,Washington Capitals,5,Columbus Blue Jackets,0,n/a
+2017-01-06,Anaheim Ducks,3,Arizona Coyotes,2,OT
+2017-01-06,Chicago Blackhawks,2,Carolina Hurricanes,1,n/a
+2017-01-06,Colorado Avalanche,2,New York Islanders,1,OT
+2017-01-06,Florida Panthers,2,Nashville Predators,1,n/a
+2017-01-06,Toronto Maple Leafs,4,New Jersey Devils,2,n/a
+2017-01-06,Vancouver Canucks,4,Calgary Flames,2,n/a
+2017-01-07,Arizona Coyotes,2,New York Islanders,1,SO
+2017-01-07,Buffalo Sabres,4,Winnipeg Jets,3,n/a
+2017-01-07,New York Rangers,5,Columbus Blue Jackets,4,n/a
+2017-01-07,Calgary Flames,3,Vancouver Canucks,1,n/a
+2017-01-07,Boston Bruins,4,Florida Panthers,0,n/a
+2017-01-07,Los Angeles Kings,4,Minnesota Wild,3,OT
+2017-01-07,Edmonton Oilers,2,New Jersey Devils,1,OT
+2017-01-07,Washington Capitals,1,Ottawa Senators,0,n/a
+2017-01-07,Philadelphia Flyers,4,Tampa Bay Lightning,2,n/a
+2017-01-07,San Jose Sharks,6,Detroit Red Wings,3,n/a
+2017-01-07,St. Louis Blues,4,Dallas Stars,3,n/a
+2017-01-07,Montreal Canadiens,5,Toronto Maple Leafs,3,n/a
+2017-01-08,Minnesota Wild,2,Anaheim Ducks,1,n/a
+2017-01-08,Carolina Hurricanes,4,Boston Bruins,3,OT
+2017-01-08,Columbus Blue Jackets,2,Philadelphia Flyers,1,OT
+2017-01-08,Chicago Blackhawks,5,Nashville Predators,2,n/a
+2017-01-08,Ottawa Senators,5,Edmonton Oilers,3,n/a
+2017-01-08,Pittsburgh Penguins,6,Tampa Bay Lightning,2,n/a
+2017-01-09,Dallas Stars,6,Los Angeles Kings,4,n/a
+2017-01-09,Washington Capitals,4,Montreal Canadiens,1,n/a
+2017-01-09,Florida Panthers,3,New Jersey Devils,0,n/a
+2017-01-09,Winnipeg Jets,2,Calgary Flames,0,n/a
+2017-01-10,Anaheim Ducks,2,Dallas Stars,0,n/a
+2017-01-10,Buffalo Sabres,4,Philadelphia Flyers,1,n/a
+2017-01-10,Carolina Hurricanes,5,Columbus Blue Jackets,3,n/a
+2017-01-10,Chicago Blackhawks,4,Detroit Red Wings,3,OT
+2017-01-10,San Jose Sharks,5,Edmonton Oilers,3,n/a
+2017-01-10,Nashville Predators,2,Vancouver Canucks,1,OT
+2017-01-10,Boston Bruins,5,St. Louis Blues,3,n/a
+2017-01-11,Calgary Flames,3,San Jose Sharks,2,n/a
+2017-01-11,Florida Panthers,2,New York Islanders,1,n/a
+2017-01-11,Montreal Canadiens,7,Winnipeg Jets,4,n/a
+2017-01-11,Washington Capitals,5,Pittsburgh Penguins,2,n/a
+2017-01-12,Anaheim Ducks,4,Colorado Avalanche,1,n/a
+2017-01-12,Dallas Stars,5,Detroit Red Wings,2,n/a
+2017-01-12,Edmonton Oilers,3,New Jersey Devils,2,OT
+2017-01-12,Los Angeles Kings,5,St. Louis Blues,1,n/a
+2017-01-12,Minnesota Wild,7,Montreal Canadiens,1,n/a
+2017-01-12,Nashville Predators,2,Boston Bruins,1,n/a
+2017-01-12,Ottawa Senators,4,Pittsburgh Penguins,1,n/a
+2017-01-12,Philadelphia Flyers,5,Vancouver Canucks,4,SO
+2017-01-12,Tampa Bay Lightning,4,Buffalo Sabres,2,n/a
+2017-01-13,Arizona Coyotes,4,Winnipeg Jets,3,n/a
+2017-01-13,Carolina Hurricanes,5,Buffalo Sabres,2,n/a
+2017-01-13,New Jersey Devils,2,Calgary Flames,1,n/a
+2017-01-13,New York Islanders,5,Florida Panthers,2,n/a
+2017-01-13,Toronto Maple Leafs,4,New York Rangers,2,n/a
+2017-01-13,Columbus Blue Jackets,3,Tampa Bay Lightning,1,n/a
+2017-01-13,Washington Capitals,6,Chicago Blackhawks,0,n/a
+2017-01-14,Anaheim Ducks,3,Arizona Coyotes,0,n/a
+2017-01-14,Boston Bruins,6,Philadelphia Flyers,3,n/a
+2017-01-14,Carolina Hurricanes,7,New York Islanders,4,n/a
+2017-01-14,Nashville Predators,3,Colorado Avalanche,2,n/a
+2017-01-14,Minnesota Wild,5,Dallas Stars,4,n/a
+2017-01-14,Detroit Red Wings,6,Pittsburgh Penguins,3,n/a
+2017-01-14,Edmonton Oilers,2,Calgary Flames,1,SO
+2017-01-14,Florida Panthers,4,Columbus Blue Jackets,3,n/a
+2017-01-14,Los Angeles Kings,3,Winnipeg Jets,2,OT
+2017-01-14,Montreal Canadiens,5,New York Rangers,4,n/a
+2017-01-14,Toronto Maple Leafs,4,Ottawa Senators,2,n/a
+2017-01-14,St. Louis Blues,4,San Jose Sharks,0,n/a
+2017-01-15,St. Louis Blues,2,Anaheim Ducks,1,OT
+2017-01-15,Minnesota Wild,3,Chicago Blackhawks,2,n/a
+2017-01-15,New Jersey Devils,2,Vancouver Canucks,1,OT
+2017-01-15,Washington Capitals,5,Philadelphia Flyers,0,n/a
+2017-01-16,New York Islanders,4,Boston Bruins,0,n/a
+2017-01-16,Buffalo Sabres,4,Dallas Stars,1,n/a
+2017-01-16,Detroit Red Wings,1,Montreal Canadiens,0,n/a
+2017-01-16,Edmonton Oilers,3,Arizona Coyotes,1,n/a
+2017-01-16,Tampa Bay Lightning,2,Los Angeles Kings,1,n/a
+2017-01-16,Pittsburgh Penguins,8,Washington Capitals,7,OT
+2017-01-16,San Jose Sharks,5,Winnipeg Jets,2,n/a
+2017-01-17,Anaheim Ducks,2,Tampa Bay Lightning,1,OT
+2017-01-17,Columbus Blue Jackets,4,Carolina Hurricanes,1,n/a
+2017-01-17,Calgary Flames,5,Florida Panthers,2,n/a
+2017-01-17,Chicago Blackhawks,6,Colorado Avalanche,4,n/a
+2017-01-17,New Jersey Devils,4,Minnesota Wild,3,n/a
+2017-01-17,Dallas Stars,7,New York Rangers,6,n/a
+2017-01-17,Ottawa Senators,6,St. Louis Blues,4,n/a
+2017-01-17,Toronto Maple Leafs,4,Buffalo Sabres,3,n/a
+2017-01-17,Vancouver Canucks,1,Nashville Predators,0,n/a
+2017-01-18,Detroit Red Wings,6,Boston Bruins,5,SO
+2017-01-18,Edmonton Oilers,4,Florida Panthers,3,OT
+2017-01-18,San Jose Sharks,3,Los Angeles Kings,2,n/a
+2017-01-18,Pittsburgh Penguins,4,Montreal Canadiens,1,n/a
+2017-01-18,Winnipeg Jets,6,Arizona Coyotes,3,n/a
+2017-01-19,Anaheim Ducks,2,Colorado Avalanche,1,n/a
+2017-01-19,Ottawa Senators,2,Columbus Blue Jackets,0,n/a
+2017-01-19,Nashville Predators,4,Calgary Flames,3,n/a
+2017-01-19,Minnesota Wild,4,Arizona Coyotes,3,n/a
+2017-01-19,New York Islanders,3,Dallas Stars,0,n/a
+2017-01-19,San Jose Sharks,2,Tampa Bay Lightning,1,n/a
+2017-01-19,Washington Capitals,7,St. Louis Blues,3,n/a
+2017-01-19,New York Rangers,5,Toronto Maple Leafs,2,n/a
+2017-01-20,Chicago Blackhawks,1,Boston Bruins,0,n/a
+2017-01-20,Buffalo Sabres,3,Detroit Red Wings,2,OT
+2017-01-20,Pittsburgh Penguins,7,Carolina Hurricanes,1,n/a
+2017-01-20,Nashville Predators,3,Edmonton Oilers,2,SO
+2017-01-20,Montreal Canadiens,3,New Jersey Devils,1,n/a
+2017-01-20,Vancouver Canucks,2,Florida Panthers,1,n/a
+2017-01-21,Arizona Coyotes,5,Tampa Bay Lightning,3,n/a
+2017-01-21,Columbus Blue Jackets,3,Carolina Hurricanes,2,n/a
+2017-01-21,Edmonton Oilers,7,Calgary Flames,3,n/a
+2017-01-21,Washington Capitals,4,Dallas Stars,3,OT
+2017-01-21,Minnesota Wild,5,Anaheim Ducks,3,n/a
+2017-01-21,Buffalo Sabres,3,Montreal Canadiens,2,OT
+2017-01-21,New York Islanders,4,Los Angeles Kings,2,n/a
+2017-01-21,New Jersey Devils,4,Philadelphia Flyers,1,n/a
+2017-01-21,San Jose Sharks,3,Colorado Avalanche,2,OT
+2017-01-21,Ottawa Senators,3,Toronto Maple Leafs,2,SO
+2017-01-21,Winnipeg Jets,5,St. Louis Blues,3,n/a
+2017-01-22,Chicago Blackhawks,4,Vancouver Canucks,2,n/a
+2017-01-22,New York Rangers,1,Detroit Red Wings,0,OT
+2017-01-22,Nashville Predators,4,Minnesota Wild,2,n/a
+2017-01-22,Philadelphia Flyers,3,New York Islanders,2,OT
+2017-01-22,Columbus Blue Jackets,7,Ottawa Senators,6,OT
+2017-01-22,Pittsburgh Penguins,5,Boston Bruins,1,n/a
+2017-01-23,Arizona Coyotes,3,Florida Panthers,2,OT
+2017-01-23,San Jose Sharks,5,Colorado Avalanche,2,n/a
+2017-01-23,New York Rangers,3,Los Angeles Kings,2,n/a
+2017-01-23,Toronto Maple Leafs,4,Calgary Flames,0,n/a
+2017-01-23,Anaheim Ducks,3,Winnipeg Jets,2,n/a
+2017-01-23,Washington Capitals,6,Carolina Hurricanes,1,n/a
+2017-01-24,Boston Bruins,4,Detroit Red Wings,3,OT
+2017-01-24,Tampa Bay Lightning,5,Chicago Blackhawks,2,n/a
+2017-01-24,Minnesota Wild,3,Dallas Stars,2,SO
+2017-01-24,Montreal Canadiens,5,Calgary Flames,1,n/a
+2017-01-24,Los Angeles Kings,3,New Jersey Devils,1,n/a
+2017-01-24,Buffalo Sabres,5,Nashville Predators,4,OT
+2017-01-24,New York Islanders,4,Columbus Blue Jackets,2,n/a
+2017-01-24,Ottawa Senators,3,Washington Capitals,0,n/a
+2017-01-24,St. Louis Blues,3,Pittsburgh Penguins,0,n/a
+2017-01-24,San Jose Sharks,4,Winnipeg Jets,3,n/a
+2017-01-25,Edmonton Oilers,4,Anaheim Ducks,0,n/a
+2017-01-25,Vancouver Canucks,3,Colorado Avalanche,2,n/a
+2017-01-25,Toronto Maple Leafs,4,Detroit Red Wings,0,n/a
+2017-01-25,Philadelphia Flyers,2,New York Rangers,0,n/a
+2017-01-26,Arizona Coyotes,3,Vancouver Canucks,0,n/a
+2017-01-26,Boston Bruins,4,Pittsburgh Penguins,3,n/a
+2017-01-26,Los Angeles Kings,3,Carolina Hurricanes,0,n/a
+2017-01-26,Winnipeg Jets,5,Chicago Blackhawks,3,n/a
+2017-01-26,Dallas Stars,4,Buffalo Sabres,3,n/a
+2017-01-26,Florida Panthers,2,Tampa Bay Lightning,1,OT
+2017-01-26,Minnesota Wild,5,St. Louis Blues,1,n/a
+2017-01-26,Washington Capitals,5,New Jersey Devils,2,n/a
+2017-01-26,Nashville Predators,4,Columbus Blue Jackets,3,n/a
+2017-01-26,New York Islanders,3,Montreal Canadiens,1,n/a
+2017-01-26,Calgary Flames,3,Ottawa Senators,2,OT
+2017-01-26,Philadelphia Flyers,2,Toronto Maple Leafs,1,n/a
+2017-01-26,Edmonton Oilers,4,San Jose Sharks,1,n/a
+2017-01-31,Anaheim Ducks,5,Colorado Avalanche,1,n/a
+2017-01-31,Los Angeles Kings,3,Arizona Coyotes,2,n/a
+2017-01-31,Carolina Hurricanes,5,Philadelphia Flyers,1,n/a
+2017-01-31,Dallas Stars,6,Toronto Maple Leafs,3,n/a
+2017-01-31,New Jersey Devils,4,Detroit Red Wings,3,n/a
+2017-01-31,Minnesota Wild,5,Edmonton Oilers,2,n/a
+2017-01-31,Florida Panthers,6,Ottawa Senators,5,n/a
+2017-01-31,Montreal Canadiens,5,Buffalo Sabres,2,n/a
+2017-01-31,New York Islanders,3,Washington Capitals,2,n/a
+2017-01-31,Columbus Blue Jackets,6,New York Rangers,4,n/a
+2017-01-31,Pittsburgh Penguins,4,Nashville Predators,2,n/a
+2017-01-31,San Jose Sharks,3,Chicago Blackhawks,1,n/a
+2017-01-31,Winnipeg Jets,5,St. Louis Blues,3,n/a
+2017-01-31,Boston Bruins,4,Tampa Bay Lightning,3,n/a
+2017-02-01,Calgary Flames,5,Minnesota Wild,1,n/a
+2017-02-01,Los Angeles Kings,5,Colorado Avalanche,0,n/a
+2017-02-01,Washington Capitals,5,Boston Bruins,3,n/a
+2017-02-02,Chicago Blackhawks,4,Arizona Coyotes,3,n/a
+2017-02-02,New York Rangers,2,Buffalo Sabres,1,OT
+2017-02-02,Winnipeg Jets,4,Dallas Stars,3,n/a
+2017-02-02,Nashville Predators,2,Edmonton Oilers,0,n/a
+2017-02-02,Philadelphia Flyers,3,Montreal Canadiens,1,n/a
+2017-02-02,St. Louis Blues,5,Toronto Maple Leafs,1,n/a
+2017-02-02,Ottawa Senators,5,Tampa Bay Lightning,2,n/a
+2017-02-02,San Jose Sharks,4,Vancouver Canucks,1,n/a
+2017-02-03,Carolina Hurricanes,2,Edmonton Oilers,1,n/a
+2017-02-03,Detroit Red Wings,5,New York Islanders,4,n/a
+2017-02-03,Florida Panthers,2,Anaheim Ducks,1,n/a
+2017-02-03,Calgary Flames,4,New Jersey Devils,3,OT
+2017-02-03,Pittsburgh Penguins,4,Columbus Blue Jackets,3,OT
+2017-02-04,Toronto Maple Leafs,6,Boston Bruins,5,n/a
+2017-02-04,Buffalo Sabres,4,Ottawa Senators,0,n/a
+2017-02-04,New Jersey Devils,5,Columbus Blue Jackets,1,n/a
+2017-02-04,Colorado Avalanche,5,Winnipeg Jets,2,n/a
+2017-02-04,Chicago Blackhawks,5,Dallas Stars,3,n/a
+2017-02-04,Washington Capitals,3,Montreal Canadiens,2,n/a
+2017-02-04,Detroit Red Wings,1,Nashville Predators,0,n/a
+2017-02-04,Carolina Hurricanes,5,New York Islanders,4,OT
+2017-02-04,Los Angeles Kings,1,Philadelphia Flyers,0,OT
+2017-02-04,Arizona Coyotes,3,San Jose Sharks,2,SO
+2017-02-04,Pittsburgh Penguins,4,St. Louis Blues,1,n/a
+2017-02-04,Tampa Bay Lightning,3,Anaheim Ducks,2,SO
+2017-02-04,Minnesota Wild,6,Vancouver Canucks,3,n/a
+2017-02-05,Edmonton Oilers,1,Montreal Canadiens,0,SO
+2017-02-05,New York Rangers,4,Calgary Flames,3,n/a
+2017-02-05,Washington Capitals,5,Los Angeles Kings,0,n/a
+2017-02-06,New Jersey Devils,2,Buffalo Sabres,1,n/a
+2017-02-06,New York Islanders,6,Toronto Maple Leafs,5,OT
+2017-02-06,St. Louis Blues,2,Philadelphia Flyers,0,n/a
+2017-02-07,Buffalo Sabres,5,San Jose Sharks,4,OT
+2017-02-07,Colorado Avalanche,4,Montreal Canadiens,0,n/a
+2017-02-07,Columbus Blue Jackets,3,Detroit Red Wings,2,OT
+2017-02-07,Nashville Predators,4,Vancouver Canucks,2,n/a
+2017-02-07,New York Rangers,4,Anaheim Ducks,1,n/a
+2017-02-07,St. Louis Blues,6,Ottawa Senators,0,n/a
+2017-02-07,Calgary Flames,3,Pittsburgh Penguins,2,SO
+2017-02-07,Tampa Bay Lightning,5,Los Angeles Kings,0,n/a
+2017-02-07,Toronto Maple Leafs,3,Dallas Stars,1,n/a
+2017-02-07,Minnesota Wild,4,Winnipeg Jets,2,n/a
+2017-02-07,Washington Capitals,5,Carolina Hurricanes,0,n/a
+2017-02-08,Chicago Blackhawks,4,Minnesota Wild,3,OT
+2017-02-09,Montreal Canadiens,5,Arizona Coyotes,4,OT
+2017-02-09,Boston Bruins,6,San Jose Sharks,3,n/a
+2017-02-09,Anaheim Ducks,5,Buffalo Sabres,2,n/a
+2017-02-09,Vancouver Canucks,3,Columbus Blue Jackets,0,n/a
+2017-02-09,Pittsburgh Penguins,4,Colorado Avalanche,1,n/a
+2017-02-09,Los Angeles Kings,6,Florida Panthers,3,n/a
+2017-02-09,New York Rangers,4,Nashville Predators,3,n/a
+2017-02-09,Ottawa Senators,3,Dallas Stars,2,n/a
+2017-02-09,New York Islanders,3,Philadelphia Flyers,1,n/a
+2017-02-09,St. Louis Blues,2,Toronto Maple Leafs,1,OT
+2017-02-09,Washington Capitals,6,Detroit Red Wings,3,n/a
+2017-02-10,Minnesota Wild,2,Tampa Bay Lightning,1,SO
+2017-02-10,Chicago Blackhawks,5,Winnipeg Jets,2,n/a
+2017-02-11,Arizona Coyotes,4,Pittsburgh Penguins,3,OT
+2017-02-11,Boston Bruins,4,Vancouver Canucks,3,n/a
+2017-02-11,Columbus Blue Jackets,2,Detroit Red Wings,1,n/a
+2017-02-11,Dallas Stars,5,Carolina Hurricanes,2,n/a
+2017-02-11,Chicago Blackhawks,5,Edmonton Oilers,1,n/a
+2017-02-11,St. Louis Blues,4,Montreal Canadiens,2,n/a
+2017-02-11,Florida Panthers,7,Nashville Predators,4,n/a
+2017-02-11,New York Rangers,4,Colorado Avalanche,2,n/a
+2017-02-11,Ottawa Senators,3,New York Islanders,0,n/a
+2017-02-11,Philadelphia Flyers,2,San Jose Sharks,1,OT
+2017-02-11,Buffalo Sabres,3,Toronto Maple Leafs,1,n/a
+2017-02-11,Tampa Bay Lightning,4,Winnipeg Jets,1,n/a
+2017-02-11,Washington Capitals,6,Anaheim Ducks,4,n/a
+2017-02-12,Boston Bruins,4,Montreal Canadiens,0,n/a
+2017-02-12,Vancouver Canucks,4,Buffalo Sabres,2,n/a
+2017-02-12,Minnesota Wild,6,Detroit Red Wings,3,n/a
+2017-02-12,San Jose Sharks,4,New Jersey Devils,1,n/a
+2017-02-12,Nashville Predators,5,Dallas Stars,3,n/a
+2017-02-12,New York Islanders,5,Colorado Avalanche,1,n/a
+2017-02-13,New York Rangers,3,Columbus Blue Jackets,2,n/a
+2017-02-13,Arizona Coyotes,5,Calgary Flames,0,n/a
+2017-02-14,Edmonton Oilers,5,Arizona Coyotes,2,n/a
+2017-02-14,Anaheim Ducks,1,Minnesota Wild,0,n/a
+2017-02-14,New Jersey Devils,3,Colorado Avalanche,2,n/a
+2017-02-14,Buffalo Sabres,3,Ottawa Senators,2,n/a
+2017-02-14,Pittsburgh Penguins,4,Vancouver Canucks,0,n/a
+2017-02-14,Toronto Maple Leafs,7,New York Islanders,1,n/a
+2017-02-14,Winnipeg Jets,5,Dallas Stars,2,n/a
+2017-02-15,Columbus Blue Jackets,5,Toronto Maple Leafs,2,n/a
+2017-02-15,Calgary Flames,3,Philadelphia Flyers,1,n/a
+2017-02-15,St. Louis Blues,2,Detroit Red Wings,0,n/a
+2017-02-15,Florida Panthers,6,San Jose Sharks,5,OT
+2017-02-16,Buffalo Sabres,2,Colorado Avalanche,0,n/a
+2017-02-16,Edmonton Oilers,6,Philadelphia Flyers,3,n/a
+2017-02-16,Arizona Coyotes,5,Los Angeles Kings,3,n/a
+2017-02-16,Minnesota Wild,3,Dallas Stars,1,n/a
+2017-02-16,Ottawa Senators,3,New Jersey Devils,0,n/a
+2017-02-16,New York Islanders,4,New York Rangers,2,n/a
+2017-02-16,Pittsburgh Penguins,4,Winnipeg Jets,3,OT
+2017-02-16,St. Louis Blues,4,Vancouver Canucks,3,n/a
+2017-02-17,Florida Panthers,4,Anaheim Ducks,1,n/a
+2017-02-17,Colorado Avalanche,2,Carolina Hurricanes,1,OT
+2017-02-17,Columbus Blue Jackets,2,Pittsburgh Penguins,1,OT
+2017-02-18,San Jose Sharks,4,Arizona Coyotes,1,n/a
+2017-02-18,Buffalo Sabres,3,St. Louis Blues,2,n/a
+2017-02-18,Edmonton Oilers,3,Chicago Blackhawks,1,n/a
+2017-02-18,Dallas Stars,4,Tampa Bay Lightning,3,OT
+2017-02-18,Detroit Red Wings,3,Washington Capitals,2,SO
+2017-02-18,Florida Panthers,3,Los Angeles Kings,2,n/a
+2017-02-18,Minnesota Wild,5,Nashville Predators,2,n/a
+2017-02-18,Winnipeg Jets,3,Montreal Canadiens,1,n/a
+2017-02-18,New Jersey Devils,3,New York Islanders,2,n/a
+2017-02-18,Ottawa Senators,6,Toronto Maple Leafs,3,n/a
+2017-02-18,Vancouver Canucks,2,Calgary Flames,1,OT
+2017-02-19,Anaheim Ducks,1,Los Angeles Kings,0,n/a
+2017-02-19,Chicago Blackhawks,5,Buffalo Sabres,1,n/a
+2017-02-19,Toronto Maple Leafs,4,Carolina Hurricanes,0,n/a
+2017-02-19,Nashville Predators,4,Columbus Blue Jackets,3,n/a
+2017-02-19,Tampa Bay Lightning,3,Colorado Avalanche,2,OT
+2017-02-19,New York Islanders,6,New Jersey Devils,4,n/a
+2017-02-19,New York Rangers,2,Washington Capitals,1,n/a
+2017-02-19,Winnipeg Jets,3,Ottawa Senators,2,n/a
+2017-02-19,Detroit Red Wings,5,Pittsburgh Penguins,2,n/a
+2017-02-19,Boston Bruins,2,San Jose Sharks,1,OT
+2017-02-19,Philadelphia Flyers,3,Vancouver Canucks,2,n/a
+2017-02-20,Arizona Coyotes,3,Anaheim Ducks,2,n/a
+2017-02-20,Florida Panthers,2,St. Louis Blues,1,n/a
+2017-02-21,Pittsburgh Penguins,3,Carolina Hurricanes,1,n/a
+2017-02-21,Los Angeles Kings,2,Colorado Avalanche,1,n/a
+2017-02-21,New York Islanders,3,Detroit Red Wings,1,n/a
+2017-02-21,Chicago Blackhawks,5,Minnesota Wild,3,n/a
+2017-02-21,Ottawa Senators,2,New Jersey Devils,1,n/a
+2017-02-21,Calgary Flames,6,Nashville Predators,5,OT
+2017-02-21,Montreal Canadiens,3,New York Rangers,2,SO
+2017-02-21,Tampa Bay Lightning,4,Edmonton Oilers,1,n/a
+2017-02-21,Toronto Maple Leafs,5,Winnipeg Jets,4,OT
+2017-02-22,Anaheim Ducks,5,Boston Bruins,3,n/a
+2017-02-22,Edmonton Oilers,4,Florida Panthers,3,n/a
+2017-02-22,Washington Capitals,4,Philadelphia Flyers,1,n/a
+2017-02-23,Chicago Blackhawks,6,Arizona Coyotes,3,n/a
+2017-02-23,Boston Bruins,4,Los Angeles Kings,1,n/a
+2017-02-23,New York Islanders,3,Montreal Canadiens,0,n/a
+2017-02-23,Nashville Predators,4,Colorado Avalanche,2,n/a
+2017-02-23,Calgary Flames,3,Tampa Bay Lightning,2,n/a
+2017-02-23,New York Rangers,2,Toronto Maple Leafs,1,SO
+2017-02-24,Carolina Hurricanes,3,Ottawa Senators,0,n/a
+2017-02-24,Dallas Stars,5,Arizona Coyotes,2,n/a
+2017-02-24,Calgary Flames,4,Florida Panthers,2,n/a
+2017-02-24,Washington Capitals,2,Edmonton Oilers,1,n/a
+2017-02-25,Columbus Blue Jackets,7,New York Islanders,0,n/a
+2017-02-25,Colorado Avalanche,5,Buffalo Sabres,3,n/a
+2017-02-25,Los Angeles Kings,4,Anaheim Ducks,1,n/a
+2017-02-25,New York Rangers,4,New Jersey Devils,3,OT
+2017-02-25,Nashville Predators,5,Washington Capitals,2,n/a
+2017-02-25,Pittsburgh Penguins,4,Philadelphia Flyers,2,n/a
+2017-02-25,Montreal Canadiens,3,Toronto Maple Leafs,2,OT
+2017-02-25,San Jose Sharks,4,Vancouver Canucks,1,n/a
+2017-02-26,Arizona Coyotes,3,Buffalo Sabres,2,n/a
+2017-02-26,Calgary Flames,3,Carolina Hurricanes,1,n/a
+2017-02-26,Chicago Blackhawks,4,St. Louis Blues,2,n/a
+2017-02-26,Boston Bruins,6,Dallas Stars,3,n/a
+2017-02-26,Ottawa Senators,2,Florida Panthers,1,n/a
+2017-02-26,Nashville Predators,5,Edmonton Oilers,4,n/a
+2017-02-26,Columbus Blue Jackets,5,New York Rangers,2,n/a
+2017-02-27,Minnesota Wild,5,Los Angeles Kings,4,OT
+2017-02-27,Montreal Canadiens,4,New Jersey Devils,3,OT
+2017-02-27,Tampa Bay Lightning,5,Ottawa Senators,1,n/a
+2017-02-28,Boston Bruins,4,Arizona Coyotes,1,n/a
+2017-02-28,Nashville Predators,5,Buffalo Sabres,4,OT
+2017-02-28,Calgary Flames,2,Los Angeles Kings,1,OT
+2017-02-28,Dallas Stars,3,Pittsburgh Penguins,2,n/a
+2017-02-28,Florida Panthers,3,Carolina Hurricanes,2,SO
+2017-02-28,Montreal Canadiens,1,Columbus Blue Jackets,0,OT
+2017-02-28,Washington Capitals,4,New York Rangers,1,n/a
+2017-02-28,Philadelphia Flyers,4,Colorado Avalanche,0,n/a
+2017-02-28,San Jose Sharks,3,Toronto Maple Leafs,1,n/a
+2017-02-28,Edmonton Oilers,2,St. Louis Blues,1,n/a
+2017-02-28,Detroit Red Wings,3,Vancouver Canucks,2,OT
+2017-02-28,Minnesota Wild,6,Winnipeg Jets,5,n/a
+2017-03-01,Chicago Blackhawks,4,Pittsburgh Penguins,1,n/a
+2017-03-01,Tampa Bay Lightning,4,Carolina Hurricanes,3,OT
+2017-03-02,New York Rangers,2,Boston Bruins,1,n/a
+2017-03-02,Buffalo Sabres,6,Arizona Coyotes,3,n/a
+2017-03-02,Columbus Blue Jackets,1,Minnesota Wild,0,n/a
+2017-03-02,New York Islanders,5,Dallas Stars,4,n/a
+2017-03-02,Los Angeles Kings,3,Toronto Maple Leafs,2,SO
+2017-03-02,Montreal Canadiens,2,Nashville Predators,1,n/a
+2017-03-02,Ottawa Senators,2,Colorado Avalanche,1,n/a
+2017-03-02,Philadelphia Flyers,2,Florida Panthers,1,SO
+2017-03-02,San Jose Sharks,3,Vancouver Canucks,1,n/a
+2017-03-02,Washington Capitals,1,New Jersey Devils,0,n/a
+2017-03-03,Anaheim Ducks,5,Toronto Maple Leafs,2,n/a
+2017-03-03,Arizona Coyotes,4,Carolina Hurricanes,2,n/a
+2017-03-03,Calgary Flames,3,Detroit Red Wings,2,OT
+2017-03-03,Chicago Blackhawks,2,New York Islanders,1,SO
+2017-03-03,Pittsburgh Penguins,5,Tampa Bay Lightning,2,n/a
+2017-03-03,Winnipeg Jets,3,St. Louis Blues,0,n/a
+2017-03-04,Boston Bruins,3,New Jersey Devils,2,n/a
+2017-03-04,Tampa Bay Lightning,2,Buffalo Sabres,1,SO
+2017-03-04,Edmonton Oilers,4,Detroit Red Wings,3,n/a
+2017-03-04,Dallas Stars,2,Florida Panthers,1,n/a
+2017-03-04,Vancouver Canucks,4,Los Angeles Kings,3,n/a
+2017-03-04,Chicago Blackhawks,5,Nashville Predators,3,n/a
+2017-03-04,Montreal Canadiens,4,New York Rangers,1,n/a
+2017-03-04,Ottawa Senators,3,Columbus Blue Jackets,2,n/a
+2017-03-04,Winnipeg Jets,6,Colorado Avalanche,1,n/a
+2017-03-04,Washington Capitals,2,Philadelphia Flyers,1,OT
+2017-03-05,Vancouver Canucks,2,Anaheim Ducks,1,n/a
+2017-03-05,Carolina Hurricanes,2,Arizona Coyotes,1,n/a
+2017-03-05,Calgary Flames,5,New York Islanders,2,n/a
+2017-03-05,St. Louis Blues,3,Colorado Avalanche,0,n/a
+2017-03-05,Minnesota Wild,3,San Jose Sharks,1,n/a
+2017-03-05,Columbus Blue Jackets,3,New Jersey Devils,0,n/a
+2017-03-05,Pittsburgh Penguins,4,Buffalo Sabres,3,n/a
+2017-03-06,Ottawa Senators,4,Boston Bruins,2,n/a
+2017-03-06,New York Rangers,1,Tampa Bay Lightning,0,OT
+2017-03-06,San Jose Sharks,3,Winnipeg Jets,2,n/a
+2017-03-06,Dallas Stars,4,Washington Capitals,2,n/a
+2017-03-07,Anaheim Ducks,4,Nashville Predators,3,SO
+2017-03-07,Philadelphia Flyers,6,Buffalo Sabres,3,n/a
+2017-03-07,Columbus Blue Jackets,2,New Jersey Devils,0,n/a
+2017-03-07,Colorado Avalanche,3,Carolina Hurricanes,1,n/a
+2017-03-07,New York Islanders,4,Edmonton Oilers,1,n/a
+2017-03-07,New York Rangers,5,Florida Panthers,2,n/a
+2017-03-07,St. Louis Blues,2,Minnesota Wild,1,n/a
+2017-03-07,Toronto Maple Leafs,3,Detroit Red Wings,2,n/a
+2017-03-07,Montreal Canadiens,2,Vancouver Canucks,1,OT
+2017-03-08,Boston Bruins,6,Detroit Red Wings,1,n/a
+2017-03-08,Ottawa Senators,5,Dallas Stars,2,n/a
+2017-03-08,Pittsburgh Penguins,7,Winnipeg Jets,4,n/a
+2017-03-09,Ottawa Senators,3,Arizona Coyotes,2,OT
+2017-03-09,Carolina Hurricanes,4,New York Rangers,3,n/a
+2017-03-09,Calgary Flames,5,Montreal Canadiens,0,n/a
+2017-03-09,Anaheim Ducks,1,Chicago Blackhawks,0,n/a
+2017-03-09,Colorado Avalanche,3,New Jersey Devils,2,n/a
+2017-03-09,Los Angeles Kings,3,Nashville Predators,2,OT
+2017-03-09,San Jose Sharks,4,Washington Capitals,2,n/a
+2017-03-09,Tampa Bay Lightning,4,Minnesota Wild,1,n/a
+2017-03-09,Toronto Maple Leafs,4,Philadelphia Flyers,2,n/a
+2017-03-09,New York Islanders,4,Vancouver Canucks,3,OT
+2017-03-10,Columbus Blue Jackets,4,Buffalo Sabres,3,n/a
+2017-03-10,Detroit Red Wings,4,Chicago Blackhawks,2,n/a
+2017-03-10,Pittsburgh Penguins,3,Edmonton Oilers,2,SO
+2017-03-10,Minnesota Wild,7,Florida Panthers,4,n/a
+2017-03-10,St. Louis Blues,4,Anaheim Ducks,3,n/a
+2017-03-11,Arizona Coyotes,5,New Jersey Devils,4,n/a
+2017-03-11,Boston Bruins,2,Philadelphia Flyers,1,n/a
+2017-03-11,Buffalo Sabres,5,Columbus Blue Jackets,3,n/a
+2017-03-11,Toronto Maple Leafs,3,Carolina Hurricanes,2,OT
+2017-03-11,Ottawa Senators,4,Colorado Avalanche,2,n/a
+2017-03-11,Los Angeles Kings,4,Washington Capitals,2,n/a
+2017-03-11,Nashville Predators,3,San Jose Sharks,1,n/a
+2017-03-11,St. Louis Blues,4,New York Islanders,3,n/a
+2017-03-11,Tampa Bay Lightning,3,Florida Panthers,2,n/a
+2017-03-11,Pittsburgh Penguins,3,Vancouver Canucks,0,n/a
+2017-03-11,Calgary Flames,3,Winnipeg Jets,0,n/a
+2017-03-12,Anaheim Ducks,5,Washington Capitals,2,n/a
+2017-03-12,Chicago Blackhawks,4,Minnesota Wild,2,n/a
+2017-03-12,New York Rangers,4,Detroit Red Wings,1,n/a
+2017-03-12,Montreal Canadiens,4,Edmonton Oilers,1,n/a
+2017-03-12,San Jose Sharks,5,Dallas Stars,1,n/a
+2017-03-13,Arizona Coyotes,1,Colorado Avalanche,0,n/a
+2017-03-13,Calgary Flames,4,Pittsburgh Penguins,3,SO
+2017-03-13,St. Louis Blues,3,Los Angeles Kings,1,n/a
+2017-03-13,Nashville Predators,5,Winnipeg Jets,4,OT
+2017-03-13,Carolina Hurricanes,8,New York Islanders,4,n/a
+2017-03-13,Tampa Bay Lightning,3,New York Rangers,2,n/a
+2017-03-13,Columbus Blue Jackets,5,Philadelphia Flyers,3,n/a
+2017-03-13,Boston Bruins,6,Vancouver Canucks,3,n/a
+2017-03-14,New York Islanders,3,Carolina Hurricanes,2,OT
+2017-03-14,Edmonton Oilers,7,Dallas Stars,1,n/a
+2017-03-14,Florida Panthers,7,Toronto Maple Leafs,2,n/a
+2017-03-14,Arizona Coyotes,3,Los Angeles Kings,2,SO
+2017-03-14,Chicago Blackhawks,4,Montreal Canadiens,2,n/a
+2017-03-14,Tampa Bay Lightning,2,Ottawa Senators,1,OT
+2017-03-14,San Jose Sharks,4,Buffalo Sabres,1,n/a
+2017-03-14,Washington Capitals,4,Minnesota Wild,2,n/a
+2017-03-15,Anaheim Ducks,2,St. Louis Blues,1,n/a
+2017-03-15,Boston Bruins,5,Calgary Flames,2,n/a
+2017-03-15,Colorado Avalanche,3,Detroit Red Wings,1,n/a
+2017-03-15,Philadelphia Flyers,4,Pittsburgh Penguins,0,n/a
+2017-03-16,Detroit Red Wings,5,Arizona Coyotes,4,SO
+2017-03-16,Carolina Hurricanes,3,Minnesota Wild,1,n/a
+2017-03-16,Columbus Blue Jackets,2,Florida Panthers,1,n/a
+2017-03-16,Edmonton Oilers,7,Boston Bruins,4,n/a
+2017-03-16,Los Angeles Kings,2,Buffalo Sabres,0,n/a
+2017-03-16,New Jersey Devils,6,Philadelphia Flyers,2,n/a
+2017-03-16,Winnipeg Jets,4,New York Islanders,2,n/a
+2017-03-16,Chicago Blackhawks,2,Ottawa Senators,1,n/a
+2017-03-16,St. Louis Blues,4,San Jose Sharks,1,n/a
+2017-03-16,Toronto Maple Leafs,5,Tampa Bay Lightning,0,n/a
+2017-03-16,Dallas Stars,4,Vancouver Canucks,2,n/a
+2017-03-16,Nashville Predators,2,Washington Capitals,1,OT
+2017-03-17,Buffalo Sabres,2,Anaheim Ducks,1,SO
+2017-03-17,Calgary Flames,3,Dallas Stars,1,n/a
+2017-03-17,Florida Panthers,4,New York Rangers,3,SO
+2017-03-17,Pittsburgh Penguins,6,New Jersey Devils,4,n/a
+2017-03-18,St. Louis Blues,3,Arizona Coyotes,0,n/a
+2017-03-18,Carolina Hurricanes,4,Nashville Predators,2,n/a
+2017-03-18,Detroit Red Wings,5,Colorado Avalanche,1,n/a
+2017-03-18,Edmonton Oilers,2,Vancouver Canucks,0,n/a
+2017-03-18,New York Rangers,3,Minnesota Wild,2,n/a
+2017-03-18,Columbus Blue Jackets,3,New York Islanders,2,OT
+2017-03-18,Montreal Canadiens,4,Ottawa Senators,3,SO
+2017-03-18,Anaheim Ducks,2,San Jose Sharks,1,n/a
+2017-03-18,Washington Capitals,5,Tampa Bay Lightning,3,n/a
+2017-03-18,Chicago Blackhawks,2,Toronto Maple Leafs,1,OT
+2017-03-19,Calgary Flames,5,Los Angeles Kings,2,n/a
+2017-03-19,Chicago Blackhawks,6,Colorado Avalanche,3,n/a
+2017-03-19,Montreal Canadiens,4,Ottawa Senators,1,n/a
+2017-03-19,Columbus Blue Jackets,4,New Jersey Devils,1,n/a
+2017-03-19,Philadelphia Flyers,4,Carolina Hurricanes,3,OT
+2017-03-19,Pittsburgh Penguins,4,Florida Panthers,0,n/a
+2017-03-19,Winnipeg Jets,5,Minnesota Wild,4,n/a
+2017-03-20,Dallas Stars,1,San Jose Sharks,0,n/a
+2017-03-20,Buffalo Sabres,2,Detroit Red Wings,1,n/a
+2017-03-20,Edmonton Oilers,2,Los Angeles Kings,0,n/a
+2017-03-20,Nashville Predators,3,Arizona Coyotes,1,n/a
+2017-03-20,Toronto Maple Leafs,4,Boston Bruins,2,n/a
+2017-03-21,Ottawa Senators,3,Boston Bruins,2,n/a
+2017-03-21,Pittsburgh Penguins,3,Buffalo Sabres,1,n/a
+2017-03-21,Vancouver Canucks,5,Chicago Blackhawks,4,OT
+2017-03-21,St. Louis Blues,4,Colorado Avalanche,2,n/a
+2017-03-21,Carolina Hurricanes,4,Florida Panthers,3,n/a
+2017-03-21,Minnesota Wild,3,San Jose Sharks,2,n/a
+2017-03-21,Detroit Red Wings,2,Montreal Canadiens,1,OT
+2017-03-21,New Jersey Devils,3,New York Rangers,2,OT
+2017-03-21,Arizona Coyotes,5,Tampa Bay Lightning,3,n/a
+2017-03-21,Winnipeg Jets,3,Philadelphia Flyers,2,n/a
+2017-03-21,Washington Capitals,4,Calgary Flames,2,n/a
