@@ -4,6 +4,8 @@ from datetime import date, timedelta
 import os, operator, copy, csv, sys
 import numpy as np
 
+#cf%
+
 #stores information for a game
 class Game(object):
 
@@ -39,6 +41,32 @@ class Game(object):
     def ot(self):
         return self._ot
 
+#class manager for the game object
+class Games(object):
+
+    setup_complete = False
+    all_games = []
+
+    @staticmethod
+    def setup(games):
+        Games.all_games = games
+        Games.setup_complete = True
+
+    def __init__(self, games):
+        pass
+
+    @staticmethod
+    def percentage(t1, t2):
+        assert(Teams.setup_complete and Games.setup_complete)
+        p1_w, p2_w = 0.0, 0.0
+        for game in Games.all_games:
+            if t1.name == game.winner and t2.name == game.loser:
+                p1_w += 1.0
+            elif t2.name == game.winner and t1.name == game.loser:
+                p2_w += 1.0
+        denum = p1_w+p2_w
+        return (p1_w/denum, p2_w/denum) if denum != 0.0 else None
+
 #stores information for a team
 class Team(object):
 
@@ -47,6 +75,12 @@ class Team(object):
         self._games = 0
         self._name = team_name
         self._rating = ts.Rating()
+
+    def set_reset(self):
+        self._reset = ts.Rating(mu = self._rating.mu, sigma = self._rating.sigma)
+
+    def reset(self):
+        self._rating = ts.Rating(mu = self._reset.mu, sigma = self._reset.sigma)
 
     @property
     def name(self):
@@ -100,6 +134,8 @@ class Teams(object):
             teams[game.winner].rating, teams[game.loser].rating = ts.rate_1vs1(teams[game.winner].rating, teams[game.loser].rating,
                                                                                drawn=(False if game.ot == 'n/a' else True))
         Teams.all_teams = list(teams.values())
+        for team in Teams.all_teams:
+            team.set_reset()
         Teams.setup_complete = True
         Teams.rank()
 
@@ -171,6 +207,10 @@ class Teams(object):
         assert(len(self.list()) > 2)
         return self.list()[2]
 
+    def reset(self):
+        for team in self.list():
+            team.reset()
+
     #returns all team names
     def names(self, key = None, i = 0, n = None):
         if key is not None: Teams.rank(key)
@@ -233,32 +273,43 @@ class Playoffs(object):
                     'Arizona Coyotes']
 
     def __init__(self):
+        assert(Teams.setup_complete)
         self._metropolitan = Teams(Playoffs.Metropolitan, 'Metropolitan')
         self._atlantic = Teams(Playoffs.Atlantic, 'Atlantic')
         self._central = Teams(Playoffs.Central, 'Central')
         self._pacific = Teams(Playoffs.Pacific, 'Pacific')
-        self._eastern = [self._metropolitan,self._atlantic]
+        self._eastern = [self._metropolitan, self._atlantic]
         self._western = [self._central, self._pacific]
-        self._reset = copy.deepcopy((self._eastern, self._western))
 
     def reset(self):
-        self._western = self._reset[0]
-        self._eastern = self._reset[1]
+        self._metropolitan.reset()
+        self._atlantic.reset()
+        self._central.reset()
+        self._pacific.reset()
 
     def predict(self):
 
         def winner(t1, t2):
-            denum = t1.rating.mu + t2.rating.mu
-            winner = np.random.choice([t1,t2],p=[t1.rating.mu/denum, t2.rating.mu/denum])
+            t1, t2 = Teams.order(t1,t2)
+
+            def prob(s1, s2):
+                prob = 0.5
+                #0.7666666
+                beta_prob = (0.7 + 2/3*(1.0/10))
+                while s1 - s2 > BETA:
+                    prob += (1-prob)*beta_prob
+                    s1 -= BETA
+                prob += (1-prob)*beta_prob*(s1-s2)/BETA
+                return prob
+
+            pr = prob(t1.rating.mu, t2.rating.mu)
+            winner = np.random.choice([t1,t2],p=[pr, 1.0-pr])
             if winner is t1:
                 t1.rating, t2.rating = ts.rate_1vs1(t1.rating, t2.rating, drawn=np.random.choice([True, False],p=[0.081,1.0-0.081]))
                 return t1
             else:
                 t2.rating, t1.rating = ts.rate_1vs1(t2.rating, t1.rating)
                 return t2
-
-        Teams.rank(key = 'score')
-        winners = []
 
         def update_progress(progress):
             barLength = 10 # Modify this to change the length of the progress bar
@@ -276,52 +327,33 @@ class Playoffs(object):
             sys.stdout.write(text)
             sys.stdout.flush()
 
-        for i in range(100000):
-            update_progress((i+1.0)/100000)
+        winners = []
+        n = 1000
+
+        Teams.rank(key = 'score')
+        for i in range(n):
+            self.reset()
+            update_progress((i+1.0)/n)
+
             #predict eastern conference
             metropolitan = self._metropolitan.subset(n = 3)
             atlantic = self._atlantic.subset(n = 3)
             wildcards = Teams(self._metropolitan.names(i = 3, n = 1)+self._atlantic.names(i = 3, n = 1)).subset(n = 2)
 
-            #round 1 contestants
             t1, t5 = Teams.order(metropolitan.first, atlantic.first)
             t3, t4 = metropolitan.second, metropolitan.third
             t7, t8 = atlantic.second, atlantic.third
             t6, t2 = Teams.order(wildcards.first, wildcards.second)
 
-            #round 1 winners
-            #print('Eastern Conference (Playoff Games)')
-            #print('==============================================', end='')
-            #print('=============================================')
-            #print("Round 1:")
-            #print('Game 1: %-25s vs %-25s' % (t1.name, t2.name), end='')
             t1 = winner(t1, t2)
-            #print('Winner: ' + t1.name)
-            #print('Game 2: %-25s vs %-25s' % (t3.name, t4.name), end='')
             t2 = winner(t3, t4)
-            #print('Winner: ' + t2.name)
-            #print('Game 3: %-25s vs %-25s' % (t5.name, t6.name), end='')
             t3 = winner(t5, t6)
-            #print('Winner: ' + t3.name)
-            #print('Game 4: %-25s vs %-25s' % (t7.name, t8.name), end='')
             t4 = winner(t7, t8)
-            #print('Winner: ' + t4.name + '\n')
 
-            #round 2 winners
-            #print("Round 2:")
-            #print('Game 1: %-25s vs %-25s' % (t1.name, t2.name), end='')
             t1 = winner(t1, t2)
-            #print('Winner: ' + t1.name)
-            #print('Game 2: %-25s vs %-25s' % (t3.name, t4.name), end='')
             t2 = winner(t3, t4)
-            #print('Winner: ' + t2.name + '\n')
 
-            #round 3 (eastern conference final)
-            #print("Eastern Conference Finals")
-            #print('Game 1: %-25s vs %-25s' % (t1.name, t2.name), end='')
             east_t = winner(t1, t2)
-            #print('Winner: ' + east_t.name + '\n\n')
-
 
             #predict western conference
             central = self._central.subset(n = 3)
@@ -334,44 +366,20 @@ class Playoffs(object):
             t7, t8 = pacific.second, pacific.third
             t6, t2 = Teams.order(wildcards.first, wildcards.second)
 
-
-            #round 1 winners
-            #print('Western Conference (Playoff Games)')
-            #print('==============================================', end='')
-            #print('=============================================')
-            #print("Round 1:")
-            #print('Game 1: %-25s vs %-25s' % (t1.name, t2.name), end='')
             t1 = winner(t1, t2)
-            #print('Winner: ' + t1.name)
-            #print('Game 2: %-25s vs %-25s' % (t3.name, t4.name), end='')
             t2 = winner(t3, t4)
-            #print('Winner: ' + t2.name)
-            #print('Game 3: %-25s vs %-25s' % (t5.name, t6.name), end='')
             t3 = winner(t5, t6)
-            #print('Winner: ' + t3.name)
-            #print('Game 4: %-25s vs %-25s' % (t7.name, t8.name), end='')
             t4 = winner(t7, t8)
-            #print('Winner: ' + t4.name + '\n')
 
-            #round 2 winners
-            #print("Round 2:")
-            #print('Game 1: %-25s vs %-25s' % (t1.name, t2.name), end='')
             t1 = winner(t1, t2)
-            #print('Winner: ' + t1.name)
-            #print('Game 2: %-25s vs %-25s' % (t3.name, t4.name), end='')
             t2 = winner(t3, t4)
-            #print('Winner: ' + t2.name + '\n')
 
-            #round 3 (western conference final)
-            #print("Western Conference Finals")
-            #print('Game 1: %-25s vs %-25s' % (t1.name, t2.name), end='')
             west_t = winner(t1, t2)
-            #print('Winner: ' + west_t.name + '\n\n')
 
-            #stanley cup final match!!
+            #stanley cup final
             stanley_cup = winner(west_t, east_t)
             winners.append(stanley_cup.name)
-            #print(stanley_cup.name + ' will win the Stanley Cup')
+
         unique_teams = []
         sorted_teams = []
         for winner in winners:
@@ -380,8 +388,9 @@ class Playoffs(object):
         for team in unique_teams:
             sorted_teams.append((team, winners.count(team)))
         sorted_teams.sort(key=lambda x: x[1], reverse = True)
+        print('\n')
         for team in sorted_teams:
-            print(team)
+            print('%-25s|   %.1f %%' % (team[0], team[1]*1.0/len(winners)*100))
 
 
     def out(self):
@@ -401,7 +410,6 @@ class Playoffs(object):
             div.out()
         print('==============================================', end='')
         print('=============================================\n')
-
 
 # END OF CLASS DEFINITIONS
 
@@ -437,11 +445,6 @@ if not os.path.isfile('data.csv'):
             except e:
                 print(e)
 
-#import trueskill and set it up
-import trueskill as ts
-ts.setup(backend='scipy')
-ts.setup(draw_probability=0.081)
-
 #extract teams and outcome of every game
 games = []
 with open('data.csv', 'r', newline='') as csvfile:
@@ -451,6 +454,17 @@ with open('data.csv', 'r', newline='') as csvfile:
         date, winner, w_score, loser, l_score, ot = row
         games.append(Game(date, winner, w_score, loser, l_score, ot))
 
+#import trueskill and set it up
+BETA = 10.0
+import trueskill as ts
+ts.setup(backend='scipy')
+ts.setup(draw_probability=0.081, beta = BETA)
+
+
+Games.setup(games)
 Teams.setup(games)
+
+
 playoffs = Playoffs()
 playoffs.predict()
+Teams.rank(key = 'mu')
