@@ -111,16 +111,26 @@ class Team(object):
         self._rating = rating
 
 #class manager for the team object.  setup() stores a static
-#reference of all teams and their ranking.  when instantiating a teams
-#object, it stores a list of all the team names specified.
-#when you call get(), it returns a list of references to all
-#the static team objects that of the specified name
+#reference of all teams and their ranking.  when instantiating
+#a teams object, you store a list of team names. when
+#you call get(), it returns a list of references to all
+#the static team objects from the list of team names
 class Teams(object):
 
     #start state is used incase we want to try multiple branches of statistical analysis
     setup_complete = False
     all_teams = []
 
+    #instantiating a new teams object.  setup have have been called prior
+    def __init__(self, team_names, name = '', n = None):
+        assert(Teams.setup_complete)
+        if n is not None:
+            self._teams = team_names[:n]
+        else:
+            self._teams = team_names
+        self._name = name
+
+    #setup method for teams object.  stores static references to all team objeccts
     @staticmethod
     def setup(games):
         teams = {}
@@ -139,28 +149,23 @@ class Teams(object):
         Teams.setup_complete = True
         Teams.rank()
 
+    #returns a list of references to all team objects.  to return a list
+    #of an instantiated teams object, refer to list()
     @staticmethod
     def all():
         return Teams.all_teams
 
+    #ranks the teams according to mu or score.
+    #really important to call before calling
+    #other functions that rely on index placement
     @staticmethod
     def rank(key = 'mu'):
         if key == 'points':
             Teams.all_teams.sort(key=lambda x: (x.points, x.games), reverse = True)
         elif key == 'mu':
             Teams.all_teams.sort(key=lambda x: x.rating.mu, reverse = True)
-        elif key == 'sigma':
-            Teams.all_teams.sort(key=lambda x: x.rating.sigma, reverse = True)
 
-    def __init__(self, team_names, name = '', n = None):
-        assert(Teams.setup_complete)
-        if n is not None:
-            self._teams = team_names[:n]
-        else:
-            self._teams = team_names
-        self._name = name
-
-    #orders t1, t2 according to the current Rank() sorting
+    #returns t1, t2 according to their current rank()
     @staticmethod
     def order(t1, t2):
         if Teams.all_teams.index(t1) < Teams.all_teams.index(t2):
@@ -168,9 +173,33 @@ class Teams(object):
         else:
             return t2, t1
 
+    #returns the name of an instantiated teams object (like division or conference)
     @property
     def name(self):
         return self._name
+
+    #returns the first object based on the current rank()
+    @property
+    def first(self):
+        assert(len(self.list()) > 0)
+        return self.list()[0]
+
+    #returns the second object based on the current rank()
+    @property
+    def second(self):
+        assert(len(self.list()) > 1)
+        return self.list()[1]
+
+    #returns the third object based on the current rank()
+    @property
+    def third(self):
+        assert(len(self.list()) > 2)
+        return self.list()[2]
+
+    #resets all teams ratings to their original post setup values
+    def reset(self):
+        for team in self.list():
+            team.reset()
 
     #prints out to the screen
     def out(self):
@@ -192,25 +221,6 @@ class Teams(object):
             teams = teams[i:n+i]
         return teams
 
-    @property
-    def first(self):
-        assert(len(self.list()) > 0)
-        return self.list()[0]
-
-    @property
-    def second(self):
-        assert(len(self.list()) > 1)
-        return self.list()[1]
-
-    @property
-    def third(self):
-        assert(len(self.list()) > 2)
-        return self.list()[2]
-
-    def reset(self):
-        for team in self.list():
-            team.reset()
-
     #returns all team names
     def names(self, key = None, i = 0, n = None):
         if key is not None: Teams.rank(key)
@@ -222,7 +232,7 @@ class Teams(object):
             teams = teams[i:n+i]
         return teams
 
-    #returns a subset of a list
+    #returns a subset of a list starting from index i with n objects
     def subset(self, key = None, i = 0, n = None):
         return Teams(self.names(i = i, n = n))
 
@@ -256,7 +266,7 @@ class Playoffs(object):
                     'Detroit Red Wings']
 
     #western conference final
-    Central =     ['Chicago Blackhawks',
+    Central = ['Chicago Blackhawks',
                     'Minnesota Wild',
                     'Nashville Predators',
                     'St. Louis Blues',
@@ -287,32 +297,11 @@ class Playoffs(object):
         self._central.reset()
         self._pacific.reset()
 
-    def predict(self):
+    def simulate(self, n = 1000):
 
-        def winner(t1, t2):
-            t1, t2 = Teams.order(t1,t2)
-
-            def prob(s1, s2):
-                prob = 0.5
-                #0.7666666
-                beta_prob = (0.7 + 2/3*(1.0/10))
-                while s1 - s2 > BETA:
-                    prob += (1-prob)*beta_prob
-                    s1 -= BETA
-                prob += (1-prob)*beta_prob*(s1-s2)/BETA
-                return prob
-
-            pr = prob(t1.rating.mu, t2.rating.mu)
-            winner = np.random.choice([t1,t2],p=[pr, 1.0-pr])
-            if winner is t1:
-                t1.rating, t2.rating = ts.rate_1vs1(t1.rating, t2.rating, drawn=np.random.choice([True, False],p=[0.081,1.0-0.081]))
-                return t1
-            else:
-                t2.rating, t1.rating = ts.rate_1vs1(t2.rating, t1.rating)
-                return t2
-
+        #progress bar for the simulation
         def update_progress(progress):
-            barLength = 10 # Modify this to change the length of the progress bar
+            barLength = 10
             status = ""
             if isinstance(progress, int):
                 progress = float(progress)
@@ -327,32 +316,89 @@ class Playoffs(object):
             sys.stdout.write(text)
             sys.stdout.flush()
 
-        winners = []
-        n = 1000
+        #returns the winning team object based on the relative
+        #probabilities ~(t1, t2) along with its updated rating
+'''NOTE: Does not account for team score differences greater than BETA
+         This is because in the playoffs, the most equal teams will face off against each
+         other.  Hence the likelyhood of having a game with far away from 50/50 odds
+         is negligible '''
+        def winner(t1, t2):
 
+            #score 1 and score 2.  score 1 must be higher to work properly
+            def prob(s1, s2):
+
+                beta_prob = (0.7 - 0.5 + 2/3*(1.0/10))
+
+                #each team is assumed to have a 50 50 chance
+                #of winning before accounting for beta
+                if s1 > s2:
+                    return 0.5 + beta_prob*(s1-s2)/BETA
+                else:
+                    return 1.0 - (0.5 + beta_prob*(s2-s1)/BETA)
+
+            #rank teams according to mu
+            Teams.rank(key = 'mu')
+
+            #reorder teams
+            t1, t2 = Teams.order(t1,t2)
+
+            #rank teams according to score
+            Teams.rank(key = 'score')
+
+            #get random team score from normal distrubtion based on mu and sigma for that team
+            m1 = np.random.normal(t1.rating.mu, t1.rating.sigma, 1)[0]
+            m2 = np.random.normal(t2.rating.mu, t2.rating.sigma, 1)[0]
+
+            #get probabilty of t1 winning. probabilty of t2 is just 1 - (prob of t1)
+            pr = prob(m1, m2)
+
+            #pick random winner based on probabilty distribution for each team
+            winner = np.random.choice([t1,t2],p=[pr, 1.0-pr])
+
+            #return random winning team and update their ranking,
+            #also taking into account, the probabilty of a draw
+            if winner is t1:
+                t1.rating, t2.rating = ts.rate_1vs1(t1.rating, t2.rating,
+                                        drawn=np.random.choice([True, False],p=[0.081,1.0-0.081]))
+                return t1
+            else:
+                t2.rating, t1.rating = ts.rate_1vs1(t2.rating, t1.rating,
+                                        drawn=np.random.choice([True, False],p=[0.081,1.0-0.081]))
+                return t2
+
+        #setup for the simulations
+        winners = []
+        trials = n
         Teams.rank(key = 'score')
-        for i in range(n):
-            self.reset()
-            update_progress((i+1.0)/n)
+
+        for i in range(trials):
+
+            #restore team ratings and update progress
+            if i > 0: self.reset()
+            update_progress((i+1.0)/trials)
 
             #predict eastern conference
             metropolitan = self._metropolitan.subset(n = 3)
             atlantic = self._atlantic.subset(n = 3)
             wildcards = Teams(self._metropolitan.names(i = 3, n = 1)+self._atlantic.names(i = 3, n = 1)).subset(n = 2)
 
+            #get appropiate teams the eastern conference
             t1, t5 = Teams.order(metropolitan.first, atlantic.first)
             t3, t4 = metropolitan.second, metropolitan.third
             t7, t8 = atlantic.second, atlantic.third
             t6, t2 = Teams.order(wildcards.first, wildcards.second)
 
+            #first round of eastern conference
             t1 = winner(t1, t2)
             t2 = winner(t3, t4)
             t3 = winner(t5, t6)
             t4 = winner(t7, t8)
 
+            #second round of eastern conference
             t1 = winner(t1, t2)
             t2 = winner(t3, t4)
 
+            #eastern conference final
             east_t = winner(t1, t2)
 
             #predict western conference
@@ -360,26 +406,30 @@ class Playoffs(object):
             pacific = self._pacific.subset(n = 3)
             wildcards = Teams(self._central.names(i = 3, n = 1)+self._pacific.names(i = 3, n = 1)).subset(n = 2)
 
-            #round 1 contestants
+            #get appropiate teams the western conference
             t1, t5 = Teams.order(central.first, pacific.first)
             t3, t4 = central.second, central.third
             t7, t8 = pacific.second, pacific.third
             t6, t2 = Teams.order(wildcards.first, wildcards.second)
 
+            #first round of eastern conference
             t1 = winner(t1, t2)
             t2 = winner(t3, t4)
             t3 = winner(t5, t6)
             t4 = winner(t7, t8)
 
+            #second round of eastern conference
             t1 = winner(t1, t2)
             t2 = winner(t3, t4)
 
+            #western conference final
             west_t = winner(t1, t2)
 
             #stanley cup final
             stanley_cup = winner(west_t, east_t)
             winners.append(stanley_cup.name)
 
+        #print teams ranked by their probability of winning the stanley cup
         unique_teams = []
         sorted_teams = []
         for winner in winners:
@@ -390,9 +440,10 @@ class Playoffs(object):
         sorted_teams.sort(key=lambda x: x[1], reverse = True)
         print('\n')
         for team in sorted_teams:
-            print('%-25s|   %.1f %%' % (team[0], team[1]*1.0/len(winners)*100))
+            print('%-25s  %3.1f %%' % (team[0], team[1]*1.0/len(winners)*100))
 
 
+    #print out the division information
     def out(self):
         print('==============================================', end='')
         print('=============================================\n')
@@ -455,16 +506,15 @@ with open('data.csv', 'r', newline='') as csvfile:
         games.append(Game(date, winner, w_score, loser, l_score, ot))
 
 #import trueskill and set it up
-BETA = 10.0
+BETA, TAU = 10.0, 0.01
 import trueskill as ts
 ts.setup(backend='scipy')
-ts.setup(draw_probability=0.081, beta = BETA)
+ts.setup(draw_probability=0.081, beta = BETA, tau = TAU)
 
 
 Games.setup(games)
 Teams.setup(games)
 
-
 playoffs = Playoffs()
-playoffs.predict()
-Teams.rank(key = 'mu')
+playoffs.simulate(n = 1000)
+#playoffs.out()
